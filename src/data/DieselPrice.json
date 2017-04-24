@@ -1,0 +1,1038 @@
+[
+  {
+    "date": "2002-06-04",
+    "Delhi": 17.99,
+    "Kolkatta": 18.38,
+    "Mumbai": 22.84,
+    "Chennai": 19.63
+  },
+  {
+    "date": "2002-06-16",
+    "Delhi": 18.23,
+    "Kolkatta": 18.61,
+    "Mumbai": 23.14,
+    "Chennai": 19.88
+  },
+  {
+    "date": "2002-07-01",
+    "Delhi": 18.23,
+    "Kolkatta": 18.61,
+    "Mumbai": 23.16,
+    "Chennai": 20.06
+  },
+  {
+    "date": "2002-08-01",
+    "Delhi": 18.23,
+    "Kolkatta": 18.16,
+    "Mumbai": 23.16,
+    "Chennai": 20.06
+  },
+  {
+    "date": "2002-08-16",
+    "Delhi": 18.05,
+    "Kolkatta": 18.43,
+    "Mumbai": 22.95,
+    "Chennai": 19.86
+  },
+  {
+    "date": "2002-09-01",
+    "Delhi": 18.34,
+    "Kolkatta": 19.72,
+    "Mumbai": 23.29,
+    "Chennai": 20.18
+  },
+  {
+    "date": "2002-09-16",
+    "Delhi": 18.68,
+    "Kolkatta": 20.06,
+    "Mumbai": 23.69,
+    "Chennai": 20.55
+  },
+  {
+    "date": "2002-10-01",
+    "Delhi": 18.91,
+    "Kolkatta": 20.3,
+    "Mumbai": 23.97,
+    "Chennai": 20.81
+  },
+  {
+    "date": "2002-10-17",
+    "Delhi": 19.23,
+    "Kolkatta": 20.62,
+    "Mumbai": 24.54,
+    "Chennai": 21.16
+  },
+  {
+    "date": "2002-11-16",
+    "Delhi": 18.57,
+    "Kolkatta": 19.96,
+    "Mumbai": 23.75,
+    "Chennai": 20.43
+  },
+  {
+    "date": "2002-11-16",
+    "Delhi": 19.25,
+    "Kolkatta": 20.64,
+    "Mumbai": 24.56,
+    "Chennai": 21.18
+  },
+  {
+    "date": "2002-12-01",
+    "Delhi": 18.06,
+    "Kolkatta": 19.96,
+    "Mumbai": 23.03,
+    "Chennai": 19.83
+  },
+  {
+    "date": "2003-01-01",
+    "Delhi": 19.47,
+    "Kolkatta": 20.45,
+    "Mumbai": 24.72,
+    "Chennai": 21.38
+  },
+  {
+    "date": "2003-01-03",
+    "Delhi": 19.07,
+    "Kolkatta": 19.43,
+    "Mumbai": 24.24,
+    "Chennai": 20.93
+  },
+  {
+    "date": "2003-02-01",
+    "Delhi": 19.84,
+    "Kolkatta": 20.86,
+    "Mumbai": 25.16,
+    "Chennai": 21.78
+  },
+  {
+    "date": "2003-03-01",
+    "Delhi": 21.21,
+    "Kolkatta": 21.23,
+    "Mumbai": 26.79,
+    "Chennai": 23.28
+  },
+  {
+    "date": "2003-03-16",
+    "Delhi": 22.12,
+    "Kolkatta": 22.6,
+    "Mumbai": 27.88,
+    "Chennai": 24.28
+  },
+  {
+    "date": "2003-04-01",
+    "Delhi": 22.12,
+    "Kolkatta": 23.51,
+    "Mumbai": 27.88,
+    "Chennai": 24.28
+  },
+  {
+    "date": "2003-04-16",
+    "Delhi": 21.12,
+    "Kolkatta": 23.51,
+    "Mumbai": 26.7,
+    "Chennai": 23.55
+  },
+  {
+    "date": "2003-04-26",
+    "Delhi": 20.12,
+    "Kolkatta": 22.52,
+    "Mumbai": 25.5,
+    "Chennai": 22.43
+  },
+  {
+    "date": "2003-05-16",
+    "Delhi": 19.18,
+    "Kolkatta": 20.57,
+    "Mumbai": 24.38,
+    "Chennai": 21.38
+  },
+  {
+    "date": "2003-06-01",
+    "Delhi": 19.08,
+    "Kolkatta": 20.47,
+    "Mumbai": 24.26,
+    "Chennai": 21.27
+  },
+  {
+    "date": "2003-08-31",
+    "Delhi": 20.33,
+    "Kolkatta": 22.53,
+    "Mumbai": 25.75,
+    "Chennai": 22.67
+  },
+  {
+    "date": "2003-10-16",
+    "Delhi": 19.73,
+    "Kolkatta": 21.9,
+    "Mumbai": 25.03,
+    "Chennai": 22
+  },
+  {
+    "date": "2003-12-12",
+    "Delhi": 20.73,
+    "Kolkatta": 22.94,
+    "Mumbai": 26.23,
+    "Chennai": 23.11
+  },
+  {
+    "date": "2003-12-31",
+    "Delhi": 21.73,
+    "Kolkatta": 23.99,
+    "Mumbai": 27.43,
+    "Chennai": 24.23
+  },
+  {
+    "date": "2004-06-15",
+    "Delhi": 22.74,
+    "Kolkatta": 25.03,
+    "Mumbai": 28.62,
+    "Chennai": 25.35
+  },
+  {
+    "date": "2004-07-31",
+    "Delhi": 24.16,
+    "Kolkatta": 26.51,
+    "Mumbai": 30.31,
+    "Chennai": 26.93
+  },
+  {
+    "date": "2004-11-04",
+    "Delhi": 26.28,
+    "Kolkatta": 28.72,
+    "Mumbai": 32.83,
+    "Chennai": 29.3
+  },
+  {
+    "date": "2005-04-01",
+    "Delhi": 28.22,
+    "Kolkatta": 28.72,
+    "Mumbai": 32.83,
+    "Chennai": 29.3
+  },
+  {
+    "date": "2005-04-05",
+    "Delhi": 26.45,
+    "Kolkatta": 28.72,
+    "Mumbai": 32.83,
+    "Chennai": 29.3
+  },
+  {
+    "date": "2005-06-20",
+    "Delhi": 28.45,
+    "Kolkatta": 30.8,
+    "Mumbai": 35.2,
+    "Chennai": 31.51
+  },
+  {
+    "date": "2005-09-06",
+    "Delhi": 30.45,
+    "Kolkatta": 32.87,
+    "Mumbai": 37.57,
+    "Chennai": 33.72
+  },
+  {
+    "date": "2006-06-05",
+    "Delhi": 32.47,
+    "Kolkatta": 34.96,
+    "Mumbai": 39.96,
+    "Chennai": 35.95
+  },
+  {
+    "date": "2006-06-10",
+    "Delhi": 32.47,
+    "Kolkatta": 34.96,
+    "Mumbai": 39.96,
+    "Chennai": 35.51
+  },
+  {
+    "date": "2006-06-20",
+    "Delhi": 32.25,
+    "Kolkatta": 34.96,
+    "Mumbai": 39.68,
+    "Chennai": 35.51
+  },
+  {
+    "date": "2006-09-06",
+    "Delhi": 30.45,
+    "Kolkatta": 32.87,
+    "Mumbai": 37.57,
+    "Chennai": 33.72
+  },
+  {
+    "date": "2006-11-30",
+    "Delhi": 31.25,
+    "Kolkatta": 33.92,
+    "Mumbai": 38.5,
+    "Chennai": 34.41
+  },
+  {
+    "date": "2006-12-01",
+    "Delhi": 31.25,
+    "Kolkatta": 33.92,
+    "Mumbai": 36.11,
+    "Chennai": 34.41
+  },
+  {
+    "date": "2007-02-16",
+    "Delhi": 30.25,
+    "Kolkatta": 32.89,
+    "Mumbai": 34.97,
+    "Chennai": 33.32
+  },
+  {
+    "date": "2007-03-01",
+    "Delhi": 30.25,
+    "Kolkatta": 32.88,
+    "Mumbai": 34.96,
+    "Chennai": 33.31
+  },
+  {
+    "date": "2007-05-16",
+    "Delhi": 30.25,
+    "Kolkatta": 32.87,
+    "Mumbai": 34.94,
+    "Chennai": 33.3
+  },
+  {
+    "date": "2007-06-06",
+    "Delhi": 30.76,
+    "Kolkatta": 32.87,
+    "Mumbai": 34.94,
+    "Chennai": 33.3
+  },
+  {
+    "date": "2008-02-15",
+    "Delhi": 31.76,
+    "Kolkatta": 33.92,
+    "Mumbai": 36.08,
+    "Chennai": 34.4
+  },
+  {
+    "date": "2008-05-24",
+    "Delhi": 31.8,
+    "Kolkatta": 33.96,
+    "Mumbai": 36.12,
+    "Chennai": 34.44
+  },
+  {
+    "date": "2008-06-06",
+    "Delhi": 34.8,
+    "Kolkatta": 35.81,
+    "Mumbai": 39.54,
+    "Chennai": 37.73
+  },
+  {
+    "date": "2008-07-16",
+    "Delhi": 34.86,
+    "Kolkatta": 35.81,
+    "Mumbai": 38.93,
+    "Chennai": 37.13
+  },
+  {
+    "date": "2008-11-06",
+    "Delhi": 34.86,
+    "Kolkatta": 35.81,
+    "Mumbai": 38.93,
+    "Chennai": 37.13
+  },
+  {
+    "date": "2008-12-06",
+    "Delhi": 32.86,
+    "Kolkatta": 33.92,
+    "Mumbai": 36.69,
+    "Chennai": 34.98
+  },
+  {
+    "date": "2009-01-29",
+    "Delhi": 30.86,
+    "Kolkatta": 33.21,
+    "Mumbai": 34.45,
+    "Chennai": 32.82
+  },
+  {
+    "date": "2009-07-02",
+    "Delhi": 32.87,
+    "Kolkatta": 35.03,
+    "Mumbai": 36.7,
+    "Chennai": 34.98
+  },
+  {
+    "date": "2010-02-27",
+    "Delhi": 35.47,
+    "Kolkatta": 37.73,
+    "Mumbai": 39.6,
+    "Chennai": 37.78
+  },
+  {
+    "date": "2010-04-01",
+    "Delhi": 38.1,
+    "Kolkatta": 37.99,
+    "Mumbai": 39.88,
+    "Chennai": 38.05
+  },
+  {
+    "date": "2010-06-26",
+    "Delhi": 40.1,
+    "Kolkatta": 39.94,
+    "Mumbai": 41.98,
+    "Chennai": 40.07
+  },
+  {
+    "date": "2010-09-08",
+    "Delhi": 37.75,
+    "Kolkatta": 40.02,
+    "Mumbai": 42.06,
+    "Chennai": 40.16
+  },
+  {
+    "date": "2010-11-02",
+    "Delhi": 37.75,
+    "Kolkatta": 40.06,
+    "Mumbai": 42.06,
+    "Chennai": 40.16
+  },
+  {
+    "date": "2011-06-25",
+    "Delhi": 41.12,
+    "Kolkatta": 43.57,
+    "Mumbai": 45.84,
+    "Chennai": 43.8
+  },
+  {
+    "date": "2011-07-01",
+    "Delhi": 40.91,
+    "Kolkatta": 43.74,
+    "Mumbai": 45.99,
+    "Chennai": 43.95
+  },
+  {
+    "date": "2011-07-08",
+    "Delhi": 40.91,
+    "Kolkatta": 43.74,
+    "Mumbai": 45.28,
+    "Chennai": 43.95
+  },
+  {
+    "date": "2011-11-01",
+    "Delhi": 40.91,
+    "Kolkatta": 43.74,
+    "Mumbai": 45.28,
+    "Chennai": 43.95
+  },
+  {
+    "date": "2012-06-18",
+    "Delhi": 41.29,
+    "Kolkatta": 43.74,
+    "Mumbai": 45.28,
+    "Chennai": 43.95
+  },
+  {
+    "date": "2012-07-25",
+    "Delhi": 41.29,
+    "Kolkatta": 44.66,
+    "Mumbai": 46.17,
+    "Chennai": 43.83
+  },
+  {
+    "date": "2012-08-01",
+    "Delhi": 41.32,
+    "Kolkatta": 44.76,
+    "Mumbai": 46.25,
+    "Chennai": 43.91
+  },
+  {
+    "date": "2012-09-14",
+    "Delhi": 46.95,
+    "Kolkatta": 50.61,
+    "Mumbai": 52.45,
+    "Chennai": 49.98
+  },
+  {
+    "date": "2012-10-27",
+    "Delhi": 47.15,
+    "Kolkatta": 50.78,
+    "Mumbai": 52.63,
+    "Chennai": 50.16
+  },
+  {
+    "date": "2013-01-01",
+    "Delhi": 47.15,
+    "Kolkatta": 50.98,
+    "Mumbai": 53.14,
+    "Chennai": 50.13
+  },
+  {
+    "date": "2013-01-17",
+    "Delhi": 47.65,
+    "Kolkatta": 51.51,
+    "Mumbai": 53.71,
+    "Chennai": 50.68
+  },
+  {
+    "date": "2013-02-16",
+    "Delhi": 48.16,
+    "Kolkatta": 52.04,
+    "Mumbai": 54.26,
+    "Chennai": 51.23
+  },
+  {
+    "date": "2013-03-22",
+    "Delhi": 48.67,
+    "Kolkatta": 52.57,
+    "Mumbai": 54.83,
+    "Chennai": 51.78
+  },
+  {
+    "date": "2013-04-01",
+    "Delhi": 48.63,
+    "Kolkatta": 52.86,
+    "Mumbai": 54.87,
+    "Chennai": 51.78
+  },
+  {
+    "date": "2013-04-16",
+    "Delhi": 48.67,
+    "Kolkatta": 52.91,
+    "Mumbai": 54.92,
+    "Chennai": 51.82
+  },
+  {
+    "date": "2013-05-11",
+    "Delhi": 49.69,
+    "Kolkatta": 53.97,
+    "Mumbai": 56.04,
+    "Chennai": 52.92
+  },
+  {
+    "date": "2013-05-23",
+    "Delhi": 49.69,
+    "Kolkatta": 53.97,
+    "Mumbai": 57.17,
+    "Chennai": 52.92
+  },
+  {
+    "date": "2013-06-01",
+    "Delhi": 50.25,
+    "Kolkatta": 54.56,
+    "Mumbai": 57.79,
+    "Chennai": 53.53
+  },
+  {
+    "date": "2013-07-01",
+    "Delhi": 50.26,
+    "Kolkatta": 54.57,
+    "Mumbai": 56.99,
+    "Chennai": 53.54
+  },
+  {
+    "date": "2013-07-02",
+    "Delhi": 50.84,
+    "Kolkatta": 55.16,
+    "Mumbai": 57.61,
+    "Chennai": 54.15
+  },
+  {
+    "date": "2013-08-01",
+    "Delhi": 51.4,
+    "Kolkatta": 55.74,
+    "Mumbai": 58.23,
+    "Chennai": 54.76
+  },
+  {
+    "date": "2013-09-01",
+    "Delhi": 51.97,
+    "Kolkatta": 56.33,
+    "Mumbai": 58.86,
+    "Chennai": 55.37
+  },
+  {
+    "date": "2013-10-01",
+    "Delhi": 52.54,
+    "Kolkatta": 56.9,
+    "Mumbai": 59.46,
+    "Chennai": 56.01
+  },
+  {
+    "date": "2013-11-01",
+    "Delhi": 53.1,
+    "Kolkatta": 57.49,
+    "Mumbai": 60.08,
+    "Chennai": 56.61
+  },
+  {
+    "date": "2013-12-01",
+    "Delhi": 53.67,
+    "Kolkatta": 58.08,
+    "Mumbai": 60.7,
+    "Chennai": 57.23
+  },
+  {
+    "date": "2013-12-21",
+    "Delhi": 53.78,
+    "Kolkatta": 58.18,
+    "Mumbai": 60.8,
+    "Chennai": 57.32
+  },
+  {
+    "date": "2014-01-04",
+    "Delhi": 54.34,
+    "Kolkatta": 58.76,
+    "Mumbai": 61.42,
+    "Chennai": 57.93
+  },
+  {
+    "date": "2014-01-05",
+    "Delhi": 54.34,
+    "Kolkatta": 58.91,
+    "Mumbai": 62.6,
+    "Chennai": 57.95
+  },
+  {
+    "date": "2014-02-01",
+    "Delhi": 54.91,
+    "Kolkatta": 59.5,
+    "Mumbai": 63.23,
+    "Chennai": 58.56
+  },
+  {
+    "date": "2014-03-01",
+    "Delhi": 55.48,
+    "Kolkatta": 60.09,
+    "Mumbai": 63.86,
+    "Chennai": 59.17
+  },
+  {
+    "date": "2014-04-01",
+    "Delhi": 55.49,
+    "Kolkatta": 60.11,
+    "Mumbai": 63.86,
+    "Chennai": 59.18
+  },
+  {
+    "date": "2014-05-13",
+    "Delhi": 56.71,
+    "Kolkatta": 61.38,
+    "Mumbai": 65.21,
+    "Chennai": 60.5
+  },
+  {
+    "date": "2014-06-01",
+    "Delhi": 57.28,
+    "Kolkatta": 61.97,
+    "Mumbai": 65.84,
+    "Chennai": 61.12
+  },
+  {
+    "date": "2014-07-01",
+    "Delhi": 57.84,
+    "Kolkatta": 62.64,
+    "Mumbai": 66.01,
+    "Chennai": 61.7
+  },
+  {
+    "date": "2014-08-01",
+    "Delhi": 58.4,
+    "Kolkatta": 63.22,
+    "Mumbai": 66.63,
+    "Chennai": 62.3
+  },
+  {
+    "date": "2014-08-31",
+    "Delhi": 58.97,
+    "Kolkatta": 63.81,
+    "Mumbai": 67.26,
+    "Chennai": 62.92
+  },
+  {
+    "date": "2014-10-19",
+    "Delhi": 55.6,
+    "Kolkatta": 60.3,
+    "Mumbai": 63.54,
+    "Chennai": 59.27
+  },
+  {
+    "date": "2014-11-01",
+    "Delhi": 53.35,
+    "Kolkatta": 57.95,
+    "Mumbai": 61.04,
+    "Chennai": 56.84
+  },
+  {
+    "date": "2014-12-01",
+    "Delhi": 52.51,
+    "Kolkatta": 57.08,
+    "Mumbai": 60.11,
+    "Chennai": 55.93
+  },
+  {
+    "date": "2014-12-16",
+    "Delhi": 50.51,
+    "Kolkatta": 55,
+    "Mumbai": 57.91,
+    "Chennai": 53.78
+  },
+  {
+    "date": "2015-01-17",
+    "Delhi": 48.26,
+    "Kolkatta": 52.99,
+    "Mumbai": 55.47,
+    "Chennai": 51.34
+  },
+  {
+    "date": "2015-02-04",
+    "Delhi": 46.01,
+    "Kolkatta": 50.99,
+    "Mumbai": 52.99,
+    "Chennai": 48.91
+  },
+  {
+    "date": "2015-02-16",
+    "Delhi": 46.62,
+    "Kolkatta": 51.54,
+    "Mumbai": 53.67,
+    "Chennai": 49.58
+  },
+  {
+    "date": "2015-03-01",
+    "Delhi": 49.71,
+    "Kolkatta": 54.29,
+    "Mumbai": 57.08,
+    "Chennai": 52.92
+  },
+  {
+    "date": "2015-04-02",
+    "Delhi": 48.5,
+    "Kolkatta": 53.23,
+    "Mumbai": 55.69,
+    "Chennai": 51.61
+  },
+  {
+    "date": "2015-04-16",
+    "Delhi": 47.2,
+    "Kolkatta": 52.08,
+    "Mumbai": 54.26,
+    "Chennai": 50.21
+  },
+  {
+    "date": "2015-05-01",
+    "Delhi": 49.57,
+    "Kolkatta": 54.17,
+    "Mumbai": 56.87,
+    "Chennai": 52.76
+  },
+  {
+    "date": "2015-05-16",
+    "Delhi": 52.28,
+    "Kolkatta": 56.85,
+    "Mumbai": 59.86,
+    "Chennai": 55.74
+  },
+  {
+    "date": "2015-06-16",
+    "Delhi": 50.93,
+    "Kolkatta": 55.45,
+    "Mumbai": 58.37,
+    "Chennai": 54.29
+  },
+  {
+    "date": "2015-07-01",
+    "Delhi": 50.22,
+    "Kolkatta": 54.75,
+    "Mumbai": 57.64,
+    "Chennai": 53.52
+  },
+  {
+    "date": "2015-07-16",
+    "Delhi": 49.72,
+    "Kolkatta": 52.75,
+    "Mumbai": 55.15,
+    "Chennai": 51.08
+  },
+  {
+    "date": "2015-08-01",
+    "Delhi": 46.12,
+    "Kolkatta": 49.66,
+    "Mumbai": 51.29,
+    "Chennai": 47.3
+  },
+  {
+    "date": "2015-08-15",
+    "Delhi": 44.95,
+    "Kolkatta": 48.66,
+    "Mumbai": 50.04,
+    "Chennai": 46.08
+  },
+  {
+    "date": "2015-09-01",
+    "Delhi": 44.45,
+    "Kolkatta": 48.23,
+    "Mumbai": 49.51,
+    "Chennai": 45.56
+  },
+  {
+    "date": "2015-10-01",
+    "Delhi": 44.95,
+    "Kolkatta": 48.71,
+    "Mumbai": 52.08,
+    "Chennai": 46.08
+  },
+  {
+    "date": "2015-10-16",
+    "Delhi": 45.9,
+    "Kolkatta": 49.52,
+    "Mumbai": 53.09,
+    "Chennai": 47.07
+  },
+  {
+    "date": "2015-11-01",
+    "Delhi": 45.93,
+    "Kolkatta": 49.55,
+    "Mumbai": 53.11,
+    "Chennai": 47.1
+  },
+  {
+    "date": "2015-11-16",
+    "Delhi": 46.8,
+    "Kolkatta": 50.29,
+    "Mumbai": 54.04,
+    "Chennai": 48
+  },
+  {
+    "date": "2015-12-01",
+    "Delhi": 46.55,
+    "Kolkatta": 50.1,
+    "Mumbai": 53.78,
+    "Chennai": 47.77
+  },
+  {
+    "date": "2015-12-16",
+    "Delhi": 46.09,
+    "Kolkatta": 49.7,
+    "Mumbai": 53.28,
+    "Chennai": 47.28
+  },
+  {
+    "date": "2016-01-01",
+    "Delhi": 45.03,
+    "Kolkatta": 48.8,
+    "Mumbai": 52.16,
+    "Chennai": 46.25
+  },
+  {
+    "date": "2016-01-16",
+    "Delhi": 44.18,
+    "Kolkatta": 48.07,
+    "Mumbai": 51.25,
+    "Chennai": 45.36
+  },
+  {
+    "date": "2016-01-19",
+    "Delhi": 44.71,
+    "Kolkatta": 48.07,
+    "Mumbai": 51.25,
+    "Chennai": 45.36
+  },
+  {
+    "date": "2016-02-01",
+    "Delhi": 44.68,
+    "Kolkatta": 48.04,
+    "Mumbai": 51.22,
+    "Chennai": 45.33
+  },
+  {
+    "date": "2016-02-18",
+    "Delhi": 44.96,
+    "Kolkatta": 48.33,
+    "Mumbai": 51.52,
+    "Chennai": 45.62
+  },
+  {
+    "date": "2016-03-01",
+    "Delhi": 46.43,
+    "Kolkatta": 49.57,
+    "Mumbai": 53.06,
+    "Chennai": 47.13
+  },
+  {
+    "date": "2016-03-10",
+    "Delhi": 46.43,
+    "Kolkatta": 49.14,
+    "Mumbai": 53.06,
+    "Chennai": 47.13
+  },
+  {
+    "date": "2016-03-17",
+    "Delhi": 48.33,
+    "Kolkatta": 50.75,
+    "Mumbai": 55.06,
+    "Chennai": 49.09
+  },
+  {
+    "date": "2016-04-05",
+    "Delhi": 49.31,
+    "Kolkatta": 51.58,
+    "Mumbai": 56.09,
+    "Chennai": 50.09
+  },
+  {
+    "date": "2016-04-09",
+    "Delhi": 49.31,
+    "Kolkatta": 51.58,
+    "Mumbai": 54.86,
+    "Chennai": 50.09
+  },
+  {
+    "date": "2016-04-16",
+    "Delhi": 48.01,
+    "Kolkatta": 50.48,
+    "Mumbai": 53.49,
+    "Chennai": 48.76
+  },
+  {
+    "date": "2016-05-01",
+    "Delhi": 50.95,
+    "Kolkatta": 52.97,
+    "Mumbai": 56.61,
+    "Chennai": 51.78
+  },
+  {
+    "date": "2016-05-07",
+    "Delhi": 50.41,
+    "Kolkatta": 52.97,
+    "Mumbai": 56.61,
+    "Chennai": 51.78
+  },
+  {
+    "date": "2016-05-17",
+    "Delhi": 51.67,
+    "Kolkatta": 54.1,
+    "Mumbai": 56.81,
+    "Chennai": 53.09
+  },
+  {
+    "date": "2016-06-01",
+    "Delhi": 53.93,
+    "Kolkatta": 56.13,
+    "Mumbai": 59.21,
+    "Chennai": 55.44
+  },
+  {
+    "date": "2016-06-16",
+    "Delhi": 55.19,
+    "Kolkatta": 57.39,
+    "Mumbai": 60.55,
+    "Chennai": 56.78
+  },
+  {
+    "date": "2016-07-01",
+    "Delhi": 54.7,
+    "Kolkatta": 56.89,
+    "Mumbai": 60,
+    "Chennai": 56.25
+  },
+  {
+    "date": "2016-07-16",
+    "Delhi": 54.28,
+    "Kolkatta": 56.48,
+    "Mumbai": 59.6,
+    "Chennai": 55.82
+  },
+  {
+    "date": "2016-08-01",
+    "Delhi": 52.27,
+    "Kolkatta": 54.57,
+    "Mumbai": 57.47,
+    "Chennai": 53.73
+  },
+  {
+    "date": "2016-08-16",
+    "Delhi": 50.27,
+    "Kolkatta": 52.86,
+    "Mumbai": 55.64,
+    "Chennai": 51.65
+  },
+  {
+    "date": "2016-09-01",
+    "Delhi": 52.94,
+    "Kolkatta": 55.15,
+    "Mumbai": 58.48,
+    "Chennai": 54.43
+  },
+  {
+    "date": "2016-09-16",
+    "Delhi": 52.59,
+    "Kolkatta": 54.89,
+    "Mumbai": 58.1,
+    "Chennai": 54.06
+  },
+  {
+    "date": "2016-10-01",
+    "Delhi": 52.51,
+    "Kolkatta": 54.83,
+    "Mumbai": 58.03,
+    "Chennai": 53.98
+  },
+  {
+    "date": "2016-10-05",
+    "Delhi": 52.61,
+    "Kolkatta": 54.92,
+    "Mumbai": 58.11,
+    "Chennai": 54.07
+  },
+  {
+    "date": "2016-10-16",
+    "Delhi": 55.38,
+    "Kolkatta": 57.64,
+    "Mumbai": 61.05,
+    "Chennai": 56.95
+  },
+  {
+    "date": "2016-11-06",
+    "Delhi": 56.41,
+    "Kolkatta": 58.67,
+    "Mumbai": 62.15,
+    "Chennai": 58.02
+  },
+  {
+    "date": "2016-11-16",
+    "Delhi": 54.71,
+    "Kolkatta": 56.95,
+    "Mumbai": 60.32,
+    "Chennai": 56.24
+  },
+  {
+    "date": "2016-12-01",
+    "Delhi": 54.57,
+    "Kolkatta": 56.81,
+    "Mumbai": 60.17,
+    "Chennai": 56.1
+  },
+  {
+    "date": "2016-12-17",
+    "Delhi": 56.68,
+    "Kolkatta": 58.92,
+    "Mumbai": 62.4,
+    "Chennai": 58.28
+  },
+  {
+    "date": "2017-01-02",
+    "Delhi": 57.82,
+    "Kolkatta": 60.06,
+    "Mumbai": 63.61,
+    "Chennai": 59.47
+  },
+  {
+    "date": "2017-01-16",
+    "Delhi": 59.02,
+    "Kolkatta": 61.27,
+    "Mumbai": 64.89,
+    "Chennai": 62.48
+  },
+  {
+    "date": "2017-04-01",
+    "Delhi": 55.61,
+    "Kolkatta": 57.86,
+    "Mumbai": 61.27,
+    "Chennai": 58.82
+  }
+]
