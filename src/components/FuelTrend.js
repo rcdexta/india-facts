@@ -3,6 +3,7 @@ import {
   ResponsiveContainer, LineChart, Line, XAxis, YAxis,
   Tooltip, CartesianGrid, Legend,
 } from 'recharts';
+import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import {Grid, Col, Row} from 'react-styled-flexboxgrid'
 
 const data = require('../data/DieselPrice.json');
@@ -25,25 +26,49 @@ const CityChart = ({city, stroke}) => (
 )
 
 class FuelTrend extends Component {
-  render() {
+
+  renderChart = () => {
     return <Grid fluid>
       <Row>
-        <Col xs={6}>
+        <Col xs={12} sm={6}>
           <CityChart city='Delhi' stroke='blue'/>
         </Col>
-        <Col xs={6}>
+        <Col xs={12} sm={6}>
           <CityChart city='Mumbai' stroke='brown'/>
         </Col>
       </Row>
       <Row>
-        <Col xs={6}>
+        <Col xs={12} sm={6}>
           <CityChart city='Kolkatta' stroke='orange'/>
         </Col>
-        <Col xs={6}>
+        <Col xs={12} sm={6}>
           <CityChart city='Chennai' stroke='green'/>
         </Col>
       </Row>
     </Grid>
+  }
+
+  render() {
+    return <div>
+      <h3>Historical Fuel Prices</h3>
+      <Tabs>
+      <TabList>
+        <Tab>Visualizations</Tab>
+        <Tab>Data</Tab>
+        <Tab>FAQ</Tab>
+      </TabList>
+
+      <TabPanel>
+        <h2>{this.renderChart()}</h2>
+      </TabPanel>
+      <TabPanel>
+        <h2>Tabular Content</h2>
+      </TabPanel>
+      <TabPanel>
+        <h2>FAQ</h2>
+      </TabPanel>
+    </Tabs>
+    </div>
   }
 }
 

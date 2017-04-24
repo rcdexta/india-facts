@@ -1,15 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types'
+import TrendImg from '../images/trends-icon.png'
+import {FlexContainer, LogoImg} from '../styles/BaseStyles'
 
 const styles = {
   root: {
     fontWeight: 300,
   },
   header: {
-    backgroundColor: '#CD9266',
+    backgroundColor: '#21232B',
     color: 'white',
     padding: '16px',
     fontSize: '1.5em',
+    textAlign: 'center'
   },
 };
 
@@ -18,7 +21,10 @@ const TitleBar = (props) => {
 
   return (
     <div style={rootStyle}>
-      <div style={styles.header}>{props.title}</div>
+      <FlexContainer style={styles.header}>
+        <LogoImg src={TrendImg}/>
+        {props.title}
+      </FlexContainer>
       {props.children}
     </div>
   );

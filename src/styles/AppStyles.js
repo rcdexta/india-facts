@@ -2,7 +2,8 @@ import styled, {injectGlobal} from 'styled-components'
 
 const globals = injectGlobal`
 	* {
-		font-family: Merriweather, serif;
+		font-family: Raleway, serif;
+		font-weight: normal;
 	}
 	
 	.fa {
