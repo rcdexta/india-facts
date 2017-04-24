@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import {
-  ResponsiveContainer, LineChart, Line, XAxis, YAxis, ReferenceLine,
-  ReferenceDot, Tooltip, CartesianGrid, Legend, Brush, ErrorBar, AreaChart, Area
+  ResponsiveContainer, LineChart, Line, XAxis, YAxis,
+  Tooltip, CartesianGrid, Legend,
 } from 'recharts';
 import {Grid, Col, Row} from 'react-styled-flexboxgrid'
 
-const data = require('./data/DieselPrice.json');
+const data = require('../data/DieselPrice.json');
 
 const CityChart = ({city, stroke}) => (
-  <ResponsiveContainer width="100%" height="50%" aspect={2}>
+  <ResponsiveContainer width="100%" height="90%" aspect={2}>
     <LineChart
       syncId="fuelIndia"
       data={data}
@@ -24,9 +24,9 @@ const CityChart = ({city, stroke}) => (
   </ResponsiveContainer>
 )
 
-class App extends Component {
+class FuelTrend extends Component {
   render() {
-    return <Grid>
+    return <Grid fluid>
       <Row>
         <Col xs={6}>
           <CityChart city='Delhi' stroke='blue'/>
@@ -47,4 +47,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default FuelTrend
