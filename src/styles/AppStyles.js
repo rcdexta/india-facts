@@ -1,13 +1,17 @@
 import styled, {injectGlobal} from 'styled-components'
 
 const globals = injectGlobal`
+  body {
+  }
+
 	* {
-		font-family: Raleway, serif;
+		font-family: Roboto, serif;
 		font-weight: normal;
 	}
 	
 	.fa {
-	  margin-right: 10px;
+	  margin-right: 3px;
+	  vertical-align: middle
 	}
 `
 

@@ -5,6 +5,7 @@ import {
 } from 'recharts';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import {Grid, Col, Row} from 'react-styled-flexboxgrid'
+import Breadcrumb from '../ui/Breadcrumb'
 
 const data = require('../data/DieselPrice.json');
 
@@ -50,7 +51,7 @@ class FuelTrend extends Component {
 
   render() {
     return <div>
-      <h3>Historical Fuel Prices</h3>
+      <Breadcrumb/>
       <Tabs>
       <TabList>
         <Tab>Visualizations</Tab>
