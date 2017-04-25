@@ -6,7 +6,7 @@ export default class Breadcrumb extends Component {
 
   render() {
     return <BreadcrumbContainer>
-      Energy <FontAwesome name='caret-right' style={{marginLeft: 3, verticalAlign: 'inherit'}}/> Diesel Price
+      Energy <FontAwesome name='caret-right' style={{marginLeft: 3, verticalAlign: 'inherit'}}/> {this.props.label}
     </BreadcrumbContainer>
   }
 }

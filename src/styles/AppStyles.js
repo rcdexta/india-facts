@@ -10,8 +10,7 @@ const globals = injectGlobal`
 	}
 	
 	.fa {
-	  margin-right: 3px;
-	  vertical-align: middle
+	  margin: 0px 3px;
 	}
 `
 

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import AppLayout from './layout/AppLayout';
-import FuelTrend from './components/FuelTrend'
+import {PetrolTrend, DieselTrend} from './components/FuelTrend'
 import Home from './components/Home'
 import Gdp from './components/Gdp'
 
@@ -17,7 +17,8 @@ export default class Routes extends Component {
     return <Router>
       <AppLayout>
         <Route path="/" exact component={Home}/>
-        <Route path="/fuel" component={FuelTrend}/>
+        <Route path="/petrol_price" component={PetrolTrend}/>
+        <Route path="/diesel_price" component={DieselTrend}/>
         <Route path="/gdp" component={Gdp}/>
       </AppLayout>
     </Router>

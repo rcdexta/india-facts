@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types'
 import TitleBar from './TitleBar';
 import {Link} from 'react-router-dom'
-import {MenuItem, Divider} from '../styles/MenuStyles'
+import {MenuItem, NestedMenuItem, Divider} from '../styles/MenuStyles'
 import FontAwesome from 'react-fontawesome'
 
 const styles = {
@@ -30,16 +30,22 @@ const SidebarContent = (props) => {
   return (
     <TitleBar title="India Trends" style={style}>
       <div style={styles.content}>
-          <MenuItem><Link to='/fuel'>
-            <FontAwesome name='tint'/>
-            <span className='label'>Fuel Prices</span>
-          </Link></MenuItem>
-          <Divider />
-          <MenuItem><Link to='/gdp'>
-            <FontAwesome name='money'/>
-            <span className='label'>Gdp</span>
-          </Link></MenuItem>
-          <Divider />
+        <MenuItem>
+          <FontAwesome name='sun-o'/>
+          <span className='label'>Energy</span>
+        </MenuItem>
+        <NestedMenuItem>
+          <Link to='/petrol_price'><span className='label'>Petrol Price</span></Link>
+        </NestedMenuItem>
+        <NestedMenuItem>
+          <Link to='/diesel_price'><span className='label'>Diesel Price</span></Link>
+        </NestedMenuItem>
+        <Divider />
+        <MenuItem><Link to='/gdp'>
+          <FontAwesome name='money'/>
+          <span className='label'>Gdp</span>
+        </Link></MenuItem>
+        <Divider />
       </div>
     </TitleBar>
   );

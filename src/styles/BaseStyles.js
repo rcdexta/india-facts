@@ -5,7 +5,6 @@ export const FlexContainer = styled.div`
   align-items: center;
 `
 
-
 export const LogoImg = styled.img`
   width: 72px;
   height: auto;
@@ -17,4 +16,21 @@ export const BreadcrumbContainer = styled.div`
   margin-bottom: 10px;
   background-color: #6c79c3;
   color: #fff;
+`
+
+export const ChartToolTip = styled.div`
+  border: 1px solid #777;
+  background-color: #fff;
+  
+  div{
+    font-size: 50%;
+    padding: 10px;
+  }
+  
+  .date {
+    text-align: center;
+    color: white;
+    padding: 5px;
+  }
+  
 `
