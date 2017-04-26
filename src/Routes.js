@@ -19,7 +19,6 @@ export default class Routes extends Component {
         <Route path="/" exact component={Home}/>
         <Route path="/petrol_price" component={PetrolTrend}/>
         <Route path="/diesel_price" component={DieselTrend}/>
-        <Route path="/gdp" component={Gdp}/>
       </AppLayout>
     </Router>
   }

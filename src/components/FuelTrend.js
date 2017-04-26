@@ -6,11 +6,11 @@ import {
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import {Grid, Col, Row} from 'react-styled-flexboxgrid'
 import Breadcrumb from '../ui/Breadcrumb'
+import ResponsiveTable from '../ui/ResponsiveTable'
 import DateHelper from '../helpers/DateHelper'
 import {ChartToolTip} from '../styles/BaseStyles'
 
 const CustomToolTip = ({payload, label}) => {
-  console.log(payload)
   if (payload.length == 0) return <span></span>
   return <ChartToolTip>
     <div className='date' style={{backgroundColor: payload[0].color}}>{DateHelper.format(label)}</div>
@@ -49,6 +49,12 @@ const CityChart = ({city, stroke, data}) => (
 
 class FuelTrend extends Component {
 
+    formattedtabularData = () => {
+    return this.props.data.reverse().map((el) => {
+      return [DateHelper.format(el.date), `₹ ${el.Delhi}`, `₹ ${el.Kolkatta}`, `₹ ${el.Mumbai}`, `₹ ${el.Chennai}`]
+    })
+  }
+
   renderChart = () => {
     return <Grid fluid>
       <Row>
@@ -56,15 +62,15 @@ class FuelTrend extends Component {
           <CityChart city='Delhi' stroke='blue' data={this.props.data}/>
         </Col>
         <Col xs={12} sm={6}>
-          <CityChart city='Mumbai' stroke='brown'  data={this.props.data}/>
+          <CityChart city='Mumbai' stroke='brown' data={this.props.data}/>
         </Col>
       </Row>
       <Row>
         <Col xs={12} sm={6}>
-          <CityChart city='Kolkatta' stroke='orange'  data={this.props.data}/>
+          <CityChart city='Kolkatta' stroke='orange' data={this.props.data}/>
         </Col>
         <Col xs={12} sm={6}>
-          <CityChart city='Chennai' stroke='green'  data={this.props.data}/>
+          <CityChart city='Chennai' stroke='green' data={this.props.data}/>
         </Col>
       </Row>
     </Grid>
@@ -75,7 +81,7 @@ class FuelTrend extends Component {
       <Breadcrumb label={`${this.props.label} Price`}/>
       <Tabs>
         <TabList>
-          <Tab>Visualizations</Tab>
+          <Tab>Facts</Tab>
           <Tab>Data</Tab>
           <Tab>FAQ</Tab>
         </TabList>
@@ -84,7 +90,7 @@ class FuelTrend extends Component {
           <h2>{this.renderChart()}</h2>
         </TabPanel>
         <TabPanel>
-          <h2>Tabular Content</h2>
+          <ResponsiveTable data={this.formattedtabularData()} headers={['Updated on', 'Delhi', 'Kolkatta', 'Mumbai', 'Chennai']}/>
         </TabPanel>
         <TabPanel>
           <h2>FAQ</h2>

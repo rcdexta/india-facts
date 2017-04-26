@@ -19,11 +19,21 @@ export const MenuItem = styled.div`
   .label {
     width: auto;
   }
+  
 `
 
 export const NestedMenuItem = styled(MenuItem)`
-  margin: 10px 0px 10px 25%;
+  padding: 12px 0px 12px 18%;
   text-transform: none;
+  border-bottom: 1px solid #2C2E39;
+  
+  &:hover, &:focus {
+    background-color: rgba(255,0,0,0.3);
+  }
+  
+  svg {
+    vertical-align: top !important;
+  }
 `
 
 export const Divider = styled.div`

@@ -1,9 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types'
+import React, {Component} from 'react';
 import TitleBar from './TitleBar';
 import {Link} from 'react-router-dom'
 import {MenuItem, NestedMenuItem, Divider} from '../styles/MenuStyles'
-import FontAwesome from 'react-fontawesome'
+import LightBulb from 'react-icons/lib/ti/lightbulb'
+import CaretRight from 'react-icons/lib/fa/caret-right'
+import Money from 'react-icons/lib/fa/money'
+import {Route} from 'react-router-dom'
 
 const styles = {
   sidebar: {
@@ -24,35 +26,37 @@ const styles = {
   },
 };
 
-const SidebarContent = (props) => {
-  const style = props.style ? {...styles.sidebar, ...props.style} : styles.sidebar;
+const SidebarMenuItem = ({path, label}) => (
+  <Route path={path} children={({match}) => {
+    const styles = match ? {backgroundColor: 'rgba(255,255,0,0.1)', borderTop: '1px solid #c36a6a', borderBottom: '1px solid #c36a6a'} : {}
+    return <NestedMenuItem style={styles}>
+      <Link to={path}><CaretRight/><span className='label'>{label}</span></Link>
+    </NestedMenuItem>
+  }
+  }/>
+)
 
-  return (
-    <TitleBar title="India Trends" style={style}>
-      <div style={styles.content}>
-        <MenuItem>
-          <FontAwesome name='sun-o'/>
-          <span className='label'>Energy</span>
-        </MenuItem>
-        <NestedMenuItem>
-          <Link to='/petrol_price'><span className='label'>Petrol Price</span></Link>
-        </NestedMenuItem>
-        <NestedMenuItem>
-          <Link to='/diesel_price'><span className='label'>Diesel Price</span></Link>
-        </NestedMenuItem>
-        <Divider />
-        <MenuItem><Link to='/gdp'>
-          <FontAwesome name='money'/>
-          <span className='label'>Gdp</span>
-        </Link></MenuItem>
-        <Divider />
-      </div>
-    </TitleBar>
-  );
-};
+export default class SidebarContent extends Component {
 
-SidebarContent.propTypes = {
-  style: PropTypes.object,
-};
+  componentWillMount() {
+  }
 
-export default SidebarContent;
+  render() {
+    return (
+      <TitleBar title="India Trends" style={styles.sidebar}>
+        <div style={styles.content}>
+          <MenuItem>
+            <LightBulb className='fa'/>
+            <span className='label'>Energy</span>
+          </MenuItem>
+          <SidebarMenuItem path='/petrol_price' label='Petrol Price' />
+          <SidebarMenuItem path='/diesel_price' label='Diesel Price' />
+          <MenuItem><Link to='/gdp'>
+            <Money className='fa'/>
+            <span className='label'>Gdp</span>
+          </Link></MenuItem>
+        </div>
+      </TitleBar>
+    );
+  }
+}

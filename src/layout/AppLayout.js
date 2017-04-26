@@ -28,6 +28,7 @@ export default class AppLayout extends Component {
   componentWillMount() {
     mql.addListener(this.mediaQueryChanged)
     this.setState({mql: mql, docked: mql.matches})
+    console.log(this.props)
   }
 
   componentWillUnmount() {

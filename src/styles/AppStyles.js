@@ -8,10 +8,6 @@ const globals = injectGlobal`
 		font-family: Roboto, serif;
 		font-weight: normal;
 	}
-	
-	.fa {
-	  margin: 0px 3px;
-	}
 `
 
 export const RightContentDiv = styled.div`
