@@ -5,8 +5,8 @@ import PropTypes from 'prop-types'
 export default class ResponsiveTable extends Component {
 
   render() {
-    const {data, headers} = this.props
-    return <RespTable>
+    const {data, headers, style} = this.props
+    return <RespTable style={style}>
       <thead>
       <tr>
         {headers.map((header) => <th>{header}</th>)}

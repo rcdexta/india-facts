@@ -49,14 +49,19 @@ const CityChart = ({city, stroke, data}) => (
 
 class FuelTrend extends Component {
 
-    formattedtabularData = () => {
-    return this.props.data.reverse().map((el) => {
+  formattedtabularData = () => {
+    return this.props.data.slice().reverse().map((el) => {
       return [DateHelper.format(el.date), `₹ ${el.Delhi}`, `₹ ${el.Kolkatta}`, `₹ ${el.Mumbai}`, `₹ ${el.Chennai}`]
     })
   }
 
   renderChart = () => {
     return <Grid fluid>
+      <Row>
+        <Col xs={12}>
+          <ResponsiveTable style={{fontSize: '50%'}} data={this.formattedtabularData().slice(0,1)} headers={['Latest Price', 'Delhi', 'Kolkatta', 'Mumbai', 'Chennai']}/>
+        </Col>
+      </Row>
       <Row>
         <Col xs={12} sm={6}>
           <CityChart city='Delhi' stroke='blue' data={this.props.data}/>
