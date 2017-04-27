@@ -3,6 +3,7 @@ import AppLayout from './layout/AppLayout';
 import {PetrolTrend, DieselTrend} from './components/FuelTrend'
 import Home from './components/Home'
 import Population from './components/Population'
+import Forecasts from './components/Forecasts'
 
 
 import {
@@ -20,6 +21,7 @@ export default class Routes extends Component {
         <Route path="/petrol_price" component={PetrolTrend}/>
         <Route path="/diesel_price" component={DieselTrend}/>
         <Route path="/population" component={Population}/>
+        <Route path="/forecasts" component={Forecasts}/>
       </AppLayout>
     </Router>
   }

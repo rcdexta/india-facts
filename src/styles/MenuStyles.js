@@ -12,7 +12,7 @@ export const MenuItem = styled.div`
   display: flex;
   padding: 5px 10px;
    
-  .fa {
+  svg {
     width: 20%;
     text-align: center;
   }
@@ -20,12 +20,12 @@ export const MenuItem = styled.div`
   .label {
     width: auto;
   }
-  
 `
 
 export const NestedMenuItem = styled(MenuItem)`
   padding: 12px 0px 12px 18%;
   text-transform: none;
+  cursor: pointer;
   border-bottom: 1px solid #2C2E39;
   margin-top: 0px;
   
@@ -34,6 +34,7 @@ export const NestedMenuItem = styled(MenuItem)`
   }
   
   svg {
+    width: 15%;
     vertical-align: top !important;
   }
 `
