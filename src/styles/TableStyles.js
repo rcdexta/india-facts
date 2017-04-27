@@ -10,11 +10,16 @@ export const RespTable = styled.table`
   color: #999;
   border-radius: .4em;
   overflow: hidden;
+  border-spacing: 0px;
 
   tr {
     border-color: lighten(#34495E, 10%);
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
+    
+     &:nth-child(even) {
+      background-color: #2b2442;
+    }
   }
 
   th {

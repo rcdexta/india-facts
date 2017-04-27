@@ -7,6 +7,7 @@ export const MenuItem = styled.div`
     width: 100%;
   }
   
+  margin-top: 15px;
   text-transform: uppercase;
   display: flex;
   padding: 5px 10px;
@@ -26,6 +27,7 @@ export const NestedMenuItem = styled(MenuItem)`
   padding: 12px 0px 12px 18%;
   text-transform: none;
   border-bottom: 1px solid #2C2E39;
+  margin-top: 0px;
   
   &:hover, &:focus {
     background-color: rgba(255,0,0,0.3);

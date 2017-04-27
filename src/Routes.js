@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import AppLayout from './layout/AppLayout';
 import {PetrolTrend, DieselTrend} from './components/FuelTrend'
 import Home from './components/Home'
-import Gdp from './components/Gdp'
+import Population from './components/Population'
 
 
 import {
@@ -19,6 +19,7 @@ export default class Routes extends Component {
         <Route path="/" exact component={Home}/>
         <Route path="/petrol_price" component={PetrolTrend}/>
         <Route path="/diesel_price" component={DieselTrend}/>
+        <Route path="/population" component={Population}/>
       </AppLayout>
     </Router>
   }

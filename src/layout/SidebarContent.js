@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import {MenuItem, NestedMenuItem, Divider} from '../styles/MenuStyles'
 import LightBulb from 'react-icons/lib/ti/lightbulb'
 import CaretRight from 'react-icons/lib/fa/caret-right'
+import Globe from 'react-icons/lib/fa/globe'
 import Money from 'react-icons/lib/fa/money'
 import {Route} from 'react-router-dom'
 
@@ -45,6 +46,11 @@ export default class SidebarContent extends Component {
     return (
       <TitleBar title="India Trends" style={styles.sidebar}>
         <div style={styles.content}>
+          <MenuItem>
+            <Globe className='fa'/>
+            <span className='label'>Demographics</span>
+          </MenuItem>
+          <SidebarMenuItem path='/population' label='Population' />
           <MenuItem>
             <LightBulb className='fa'/>
             <span className='label'>Energy</span>
