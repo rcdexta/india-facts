@@ -7,11 +7,12 @@ export default class Breadcrumb extends Component {
 
   render() {
     return <BreadcrumbContainer>
-      Energy <CaretRight style={{marginLeft: 3}} className='fa'/> {this.props.label}
+      {this.props.category} <CaretRight style={{marginLeft: 3}} className='fa'/> {this.props.label}
     </BreadcrumbContainer>
   }
 }
 
 Breadcrumb.PropTypes = {
-  label: PropTypes.string.isRequired
+  label: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired
 }

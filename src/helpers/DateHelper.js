@@ -1,9 +1,11 @@
 import format from 'date-fns/format'
 
 const DateHelper = {
-  format: (date) => {
-    return format(date, 'DD MMM YYYY')
+
+  format: (input) => {
+    return  (typeof input) === 'string' ? format(input, 'DD MMM YYYY') : input
   }
+
 }
 
 export default DateHelper

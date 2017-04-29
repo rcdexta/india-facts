@@ -3,6 +3,12 @@ import styled, {injectGlobal} from 'styled-components'
 const globals = injectGlobal`
   body {
   }
+  
+  a {
+    text-decoration: none;
+    color: #b8b7ad;
+    width: 100%;
+  }
 
 	* {
 		font-family: Roboto, serif;

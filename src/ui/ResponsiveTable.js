@@ -9,7 +9,7 @@ export default class ResponsiveTable extends Component {
     return <RespTable style={style}>
       <thead>
       <tr>
-        {headers.map((header) => <th>{header}</th>)}
+        {headers.map((header, idx) => <th key={idx}>{header}</th>)}
       </tr>
       </thead>
       <tbody>

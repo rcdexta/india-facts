@@ -1,12 +1,6 @@
 import styled from 'styled-components'
 
 export const MenuItem = styled.div`
-  a {
-    text-decoration: none;
-    color: #b8b7ad;
-    width: 100%;
-  }
-  
   margin-top: 15px;
   text-transform: uppercase;
   display: flex;

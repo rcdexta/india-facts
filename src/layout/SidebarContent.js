@@ -33,10 +33,12 @@ const styles = {
 const SidebarMenuItem = ({path, label, icon}) => (
   <Route path={path} children={({match}) => {
     const styles = match ? {backgroundColor: 'rgba(255,255,0,0.1)', borderRight: '4px solid #7b875a'} : {}
-    return <NestedMenuItem style={styles}>
-      <Link to={path}>{icon}<span className='label'>{label}</span></Link>
-    </NestedMenuItem>
-  }
+    return <Link to={path}>
+        <NestedMenuItem style={styles}>
+          {icon}<span className='label'>{label}</span>
+        </NestedMenuItem>
+      </Link>
+    }
   }/>
 )
 

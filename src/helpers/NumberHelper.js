@@ -6,6 +6,10 @@ const NumberHelper = {
     return number.toLocaleString()
   },
 
+  rupee: (number) => {
+    return `₹ ${number}`
+  },
+
   abbr: (number) => {
     let tier = Math.log10(Math.abs(number)) / 3 | 0;
 

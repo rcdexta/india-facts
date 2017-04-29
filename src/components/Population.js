@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-  ResponsiveContainer, LineChart, Line, XAxis, YAxis,
+  ResponsiveContainer, BarChart, Bar, XAxis, YAxis,
   Tooltip, CartesianGrid, Legend,
 } from 'recharts';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
@@ -9,6 +9,8 @@ import Breadcrumb from '../ui/Breadcrumb'
 import ResponsiveTable from '../ui/ResponsiveTable'
 import Nh from '../helpers/NumberHelper'
 import {ChartToolTip} from '../styles/BaseStyles'
+import LineChart from '../charts/LineChart'
+import PlotValue from '../charts/PlotValue'
 
 const data = require('../data/Population.json');
 
@@ -34,7 +36,7 @@ const CustomYearTick = ({x, y, payload}) => {
 
 const Chart = ({label, stroke, data}) => (
   <ResponsiveContainer width="100%" height="90%" aspect={2}>
-    <LineChart
+    <BarChart
       data={data}
       syncId="population"
       margin={{top: 40, right: 40, bottom: 20, left: 20}}
@@ -43,9 +45,9 @@ const Chart = ({label, stroke, data}) => (
       <XAxis dataKey="Year" padding={{right: 20, left: 20}} tick={<CustomYearTick/>}/>
       <YAxis  tick={<CustomValueTick/>}/>
       <Tooltip content={<CustomToolTip/>}/>
-      <Line type="monotone" dataKey={label} stroke={stroke}/>
+      <Bar type="monotone" dataKey={label} fill={stroke}/>
       <Legend iconType='star'/>
-    </LineChart>
+    </BarChart>
   </ResponsiveContainer>
 )
 
@@ -78,7 +80,7 @@ export default class Population extends Component {
       </Row>
       <Row>
         <Col xs={12} sm={6}>
-          <Chart label='YearlyGrowth' stroke='orange' data={data}/>
+          <LineChart plotBy='Year' label='YearlyGrowth' color='orange' data={data} valueType={PlotValue.PERCENTAGE}/>
         </Col>
         <Col xs={12} sm={6}>
         </Col>
@@ -88,7 +90,7 @@ export default class Population extends Component {
 
   render() {
     return <div>
-      <Breadcrumb label={`Population`}/>
+      <Breadcrumb category='Demography' label={`Population`}/>
       <Tabs>
         <TabList>
           <Tab>Facts</Tab>
