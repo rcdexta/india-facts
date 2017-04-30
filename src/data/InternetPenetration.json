@@ -1,0 +1,155 @@
+[
+  {
+    "Year": 2000,
+    "Internet Users": 5557455,
+    "Penetration": 0.5,
+    "TotalPopulation": 1053481072,
+    "Nonusers": 1047923617,
+    "YoY % of Users": 96.5,
+    "YoyUsersChange": 2729647
+  },
+  {
+    "Year": 2001,
+    "Internet Users": 7076031,
+    "Penetration": 0.7,
+    "TotalPopulation": 1071888190,
+    "Nonusers": 1064812159,
+    "YoY % of Users": 27.3,
+    "YoyUsersChange": 1518576
+  },
+  {
+    "Year": 2002,
+    "Internet Users": 16765756,
+    "Penetration": 1.5,
+    "TotalPopulation": 1090189358,
+    "Nonusers": 1073423602,
+    "YoY % of Users": 136.9,
+    "YoyUsersChange": 9689725
+  },
+  {
+    "Year": 2003,
+    "Internet Users": 18692542,
+    "Penetration": 1.7,
+    "TotalPopulation": 1108369577,
+    "Nonusers": 1089677035,
+    "YoY % of Users": 11.5,
+    "YoyUsersChange": 1926786
+  },
+  {
+    "Year": 2004,
+    "Internet Users": 22259583,
+    "Penetration": 2,
+    "TotalPopulation": 1126419321,
+    "Nonusers": 1104159738,
+    "YoY % of Users": 19.1,
+    "YoyUsersChange": 3567041
+  },
+  {
+    "Year": 2005,
+    "Internet Users": 27327370,
+    "Penetration": 2.4,
+    "TotalPopulation": 1144326293,
+    "Nonusers": 1116998923,
+    "YoY % of Users": 22.8,
+    "YoyUsersChange": 5067787
+  },
+  {
+    "Year": 2006,
+    "Internet Users": 32602386,
+    "Penetration": 2.8,
+    "TotalPopulation": 1162088305,
+    "Nonusers": 1129485919,
+    "YoY % of Users": 19.3,
+    "YoyUsersChange": 5275016
+  },
+  {
+    "Year": 2007,
+    "Internet Users": 46597582,
+    "Penetration": 4,
+    "TotalPopulation": 1179685631,
+    "Nonusers": 1133088049,
+    "YoY % of Users": 42.9,
+    "YoyUsersChange": 13995197
+  },
+  {
+    "Year": 2008,
+    "Internet Users": 52431671,
+    "Penetration": 4.4,
+    "TotalPopulation": 1197070109,
+    "Nonusers": 1144638438,
+    "YoY % of Users": 12.5,
+    "YoyUsersChange": 5834088
+  },
+  {
+    "Year": 2009,
+    "Internet Users": 62166128,
+    "Penetration": 5.1,
+    "TotalPopulation": 1214182182,
+    "Nonusers": 1152016054,
+    "YoY % of Users": 18.6,
+    "YoyUsersChange": 9734457
+  },
+  {
+    "Year": 2010,
+    "Internet Users": 92323838,
+    "Penetration": 7.5,
+    "TotalPopulation": 1230984504,
+    "Nonusers": 1138660666,
+    "YoY % of Users": 48.5,
+    "YoyUsersChange": 30157710
+  },
+  {
+    "Year": 2011,
+    "Internet Users": 125617813,
+    "Penetration": 10.1,
+    "TotalPopulation": 1247446011,
+    "Nonusers": 1121828198,
+    "YoY % of Users": 36.1,
+    "YoyUsersChange": 33293976
+  },
+  {
+    "Year": 2012,
+    "Internet Users": 158960346,
+    "Penetration": 12.6,
+    "TotalPopulation": 1263589639,
+    "Nonusers": 1104629293,
+    "YoY % of Users": 26.5,
+    "YoyUsersChange": 33342533
+  },
+  {
+    "Year": 2013,
+    "Internet Users": 193204330,
+    "Penetration": 15.1,
+    "TotalPopulation": 1279498874,
+    "Nonusers": 1086294544,
+    "YoY % of Users": 21.5,
+    "YoyUsersChange": 34243984
+  },
+  {
+    "Year": 2014,
+    "Internet Users": 233152478,
+    "Penetration": 18,
+    "TotalPopulation": 1295291543,
+    "Nonusers": 1062139065,
+    "YoY % of Users": 20.7,
+    "YoyUsersChange": 39948148
+  },
+  {
+    "Year": 2015,
+    "Internet Users": 354114747,
+    "Penetration": 27,
+    "TotalPopulation": 1311050527,
+    "Nonusers": 956935780,
+    "YoY % of Users": 51.9,
+    "YoyUsersChange": 120962270
+  },
+  {
+    "Year": 2016,
+    "Internet Users": 462124989,
+    "Penetration": 34.8,
+    "TotalPopulation": 1326801576,
+    "Nonusers": 864676587,
+    "YoY % of Users": 30.5,
+    "YoyUsersChange": 108010242
+  }
+]

@@ -13,7 +13,7 @@ const NumberHelper = {
   abbr: (number) => {
     let tier = Math.log10(Math.abs(number)) / 3 | 0;
 
-    if (tier == 0) return number;
+    if (tier === 0) return number;
 
     let postfix = SI_POSTFIXES[tier];
     let scale = Math.pow(10, tier * 3);

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Sidebar from 'react-sidebar';
-import SideBarContent from './SidebarContent'
+import MenuBar from './MenuBar'
 import TitleBar from './TitleBar'
 import {RightContentDiv} from '../styles/AppStyles.js'
 
@@ -50,7 +50,7 @@ export default class AppLayout extends Component {
   }
 
   render() {
-    const sidebar = <SideBarContent/>;
+    const sidebar = <MenuBar/>;
 
     const contentHeader = (
       <span>

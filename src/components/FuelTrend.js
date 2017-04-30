@@ -52,7 +52,6 @@ class FuelTrend extends Component {
           <Tab>Data</Tab>
           <Tab>FAQ</Tab>
         </TabList>
-
         <TabPanel>
           <h2>{this.renderChart()}</h2>
         </TabPanel>

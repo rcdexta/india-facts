@@ -1,55 +1,14 @@
 import React, {Component} from 'react';
-import {
-  ResponsiveContainer, BarChart, Bar, XAxis, YAxis,
-  Tooltip, CartesianGrid, Legend,
-} from 'recharts';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import {Grid, Col, Row} from 'react-styled-flexboxgrid'
 import Breadcrumb from '../ui/Breadcrumb'
 import ResponsiveTable from '../ui/ResponsiveTable'
 import Nh from '../helpers/NumberHelper'
-import {ChartToolTip} from '../styles/BaseStyles'
 import LineChart from '../charts/LineChart'
 import PlotValue from '../charts/PlotValue'
+import BarChart from '../charts/BarChart'
 
 const data = require('../data/Population.json');
-
-const CustomToolTip = ({payload, label}) => {
-  if (payload.length == 0) return <span></span>
-  return <ChartToolTip>
-    <div className='date' style={{backgroundColor: payload[0].color}}>{label}</div>
-    <div>{payload[0].name}: {payload[0].value < 100 ? `${payload[0].value} %` : payload[0].value.toLocaleString()}</div>
-  </ChartToolTip>
-}
-
-const CustomValueTick = ({x, y, payload}) => {
-  return <g transform={`translate(${x},${y})`}>
-    <text x={0} y={0} dx={-25} textAnchor="middle" fill="#666" style={{fontSize: 10}}>{payload.value < 100 ? `${payload.value} %` : Nh.abbr(payload.value)}</text>
-  </g>
-}
-
-const CustomYearTick = ({x, y, payload}) => {
-  return <g transform={`translate(${x},${y})`}>
-    <text x={0} y={0} dy={10} textAnchor="middle" fill="#666" style={{fontSize: 10}}>{payload.value}</text>
-  </g>
-}
-
-const Chart = ({label, stroke, data}) => (
-  <ResponsiveContainer width="100%" height="90%" aspect={2}>
-    <BarChart
-      data={data}
-      syncId="population"
-      margin={{top: 40, right: 40, bottom: 20, left: 20}}
-    >
-      <CartesianGrid strokeDasharray="3 3"/>
-      <XAxis dataKey="Year" padding={{right: 20, left: 20}} tick={<CustomYearTick/>}/>
-      <YAxis  tick={<CustomValueTick/>}/>
-      <Tooltip content={<CustomToolTip/>}/>
-      <Bar type="monotone" dataKey={label} fill={stroke}/>
-      <Legend iconType='star'/>
-    </BarChart>
-  </ResponsiveContainer>
-)
 
 const headers = ['Year','Population','Yearly Growth','Yearly Change','Median Age','Fertility Rate','Density (P/Km²)','Urban Population','% Share of World Population','World Population','India Global Rank']
 
@@ -72,10 +31,10 @@ export default class Population extends Component {
       </Row>
       <Row>
         <Col xs={12} sm={6}>
-          <Chart label='India Population' stroke='green' data={data}/>
+          <BarChart label='India Population' color='green' data={data} valueType={PlotValue.BIG_NUMBER} syncId='Population' />
         </Col>
         <Col xs={12} sm={6}>
-          <Chart label='World Population' stroke='blue' data={data}/>
+          <BarChart label='World Population' color='blue' data={data} valueType={PlotValue.BIG_NUMBER}  syncId='Population' />
         </Col>
       </Row>
       <Row>

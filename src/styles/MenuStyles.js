@@ -18,8 +18,8 @@ export const MenuItem = styled.div`
 
 export const NestedMenuItem = styled(MenuItem)`
   padding: 12px 0px 12px 18%;
-  text-transform: none;
   cursor: pointer;
+  font-size: 78%;
   border-bottom: 1px solid #2C2E39;
   margin-top: 0px;
   
