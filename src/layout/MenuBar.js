@@ -12,6 +12,9 @@ import Forecast from 'react-icons/lib/fa/line-chart'
 import Internet from 'react-icons/lib/fa/edge'
 import MarketShare from 'react-icons/lib/ti/chart-pie'
 import CloudInternet from 'react-icons/lib/go/cloud-download'
+import Environment from 'react-icons/lib/md/nature'
+import Smoke from 'react-icons/lib/md/smoking-rooms'
+import Life from 'react-icons/lib/ti/heart'
 import {Route} from 'react-router-dom'
 
 const styles = {
@@ -61,7 +64,7 @@ export default class MenuBar extends Component {
           </MenuItem>
           <SidebarMenuItem path='/population' label='Population' icon={<Person/>}/>
           <SidebarMenuItem path='/forecasts' label='Forecasts' icon={<Forecast/>}/>
-          <SidebarMenuItem path='/life_expectancy' label='Life Expectancy' icon={<Forecast/>}/>
+          <SidebarMenuItem path='/life_expectancy' label='Life Expectancy' icon={<Life/>}/>
 
           <MenuItem>
             <Energy/>
@@ -80,10 +83,10 @@ export default class MenuBar extends Component {
 
 
           <MenuItem>
-            <Telecom/>
+            <Environment/>
             <span className='label'>Environment</span>
           </MenuItem>
-          <SidebarMenuItem path='/co2_emissions' label='CO2 Emissions' icon={<Petrol/>}/>
+          <SidebarMenuItem path='/co2_emissions' label='CO2 Emissions' icon={<Smoke/>}/>
           <SidebarMenuItem path='/pollution' label='Pollution' icon={<Petrol/>}/>
 
           <MenuItem>

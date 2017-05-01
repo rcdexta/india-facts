@@ -10,7 +10,7 @@ import CustomDateTick from '../charts/CustomDateTick'
 import CustomValueTick from '../charts/CustomValueTick'
 import LineChart from '../charts/LineChart'
 const data = require('../data/InternetPenetration.json');
-import {ChartToolTip} from '../styles/BaseStyles'
+import {ChartToolTip, ChartTitle} from '../styles/BaseStyles'
 
 const headers = ['Year', 'InternetUsers', 'Penetration', 'Total Population', 'Non Users', 'YoY User Change %', 'YoY User Change']
 
@@ -43,6 +43,7 @@ export default class InternetPenetration extends Component {
       </Row>
       <Row>
         <Col xs={12} sm={6}>
+          <ChartTitle>Population with access to internet over the years</ChartTitle>
           <ResponsiveContainer width="100%" height="90%" aspect={2}>
             <AreaChart data={data}
                        margin={{top: 40, right: 40, bottom: 20, left: 20}}>
@@ -57,6 +58,7 @@ export default class InternetPenetration extends Component {
           </ResponsiveContainer>
         </Col>
         <Col xs={12} sm={6}>
+          <ChartTitle>Year-on-year growth of users accessing internet</ChartTitle>
           <LineChart plotBy='Year' label='YoY % Growth of Users' color='green' data={data} valueType={PlotValue.PERCENTAGE}/>
         </Col>
       </Row>

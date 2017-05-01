@@ -11,9 +11,9 @@ import LineChart from '../charts/LineChart'
 import ChartValue from '../charts/PlotValue'
 import {ChartSmallTitle, ChartToolTip} from '../styles/BaseStyles'
 
-const data = require('../data/ProjectedPopulation.json');
+const data = require('../data/Co2Emissions.json');
 
-const headers = ['Year','India', 'China', 'USA', 'World']
+const headers = ['Year','India', 'China', 'World']
 
 const CustomToolTip = ({payload, label}) => {
   if (payload.length == 0) return <span></span>
@@ -26,12 +26,11 @@ const CustomToolTip = ({payload, label}) => {
   </ChartToolTip>
 }
 
-
-export default class Forecasts extends Component {
+export default class Co2Emissions extends Component {
 
   formattedtabularData = () => {
     return data.slice().map((el) => {
-      return [el['Year'], Nh.humanize(el['India']), Nh.humanize(el['China']), Nh.humanize(el['Usa']), Nh.humanize(el['World'])]
+      return [el['Year'], Nh.humanize(el['India']), Nh.humanize(el['China']), Nh.humanize(el['World'])]
     })
   }
 
@@ -39,12 +38,12 @@ export default class Forecasts extends Component {
     return <Grid fluid>
       <Row>
         <Col xs={12} sm={6}>
-          <ChartSmallTitle>India, China and USA: Forecasted population growth</ChartSmallTitle>
-          <LineChart plotBy='Year' label='India Population' color='green' data={data}
+          <ChartSmallTitle>CO2 emissions (metric tons per capita)</ChartSmallTitle>
+          <LineChart plotBy='Year' data={data}
                      valueType={ChartValue.BIG_NUMBER} customToolTip={<CustomToolTip/>}>
             <Line dataKey="India" stroke="green" dot={false}/>
             <Line dataKey="China" stroke="orange"  dot={false}/>
-            <Line dataKey="Usa" stroke="blue"  dot={false}/>
+            <Line dataKey="World" stroke="blue"  dot={false}/>
           </LineChart>
         </Col>
       </Row>
@@ -53,7 +52,7 @@ export default class Forecasts extends Component {
 
   render() {
     return <div>
-      <Breadcrumb  category='Demography'  label={`Population Forecast`}/>
+      <Breadcrumb  category='Environment'  label='CO2 Emissions'/>
       <Tabs>
         <TabList>
           <Tab>Facts</Tab>

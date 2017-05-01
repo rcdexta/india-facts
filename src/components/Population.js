@@ -7,6 +7,7 @@ import Nh from '../helpers/NumberHelper'
 import LineChart from '../charts/LineChart'
 import PlotValue from '../charts/PlotValue'
 import BarChart from '../charts/BarChart'
+import {ChartSmallTitle} from '../styles/BaseStyles'
 
 const data = require('../data/Population.json');
 
@@ -25,6 +26,7 @@ export default class Population extends Component {
     return <Grid fluid>
       <Row>
         <Col xs={12}>
+          <ChartSmallTitle>Historical growth of Indian population compared to the rest of the world</ChartSmallTitle>
           <ResponsiveTable style={{fontSize: '50%'}} data={this.formattedtabularData().slice(0,1)}
                            headers={headers}/>
         </Col>
