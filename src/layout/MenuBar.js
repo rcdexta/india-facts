@@ -59,7 +59,7 @@ export default class MenuBar extends Component {
 
   render() {
     return (
-      <TitleBar title="India Facts" style={styles.sidebar}>
+      <TitleBar title="India Facts" style={styles.sidebar} image={true}>
         <div style={styles.content}>
 
           <MenuItem>

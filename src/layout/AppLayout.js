@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import Sidebar from 'react-sidebar';
 import MenuBar from './MenuBar'
 import TitleBar from './TitleBar'
+import MenuIcon from 'react-icons/lib/md/menu'
 import {RightContentDiv} from '../styles/AppStyles.js'
+import { withRouter } from 'react-router-dom';
 
 const styles = {
   contentHeaderMenuLink: {
@@ -17,7 +19,7 @@ const styles = {
 
 const mql = window.matchMedia(`(min-width: 800px)`);
 
-export default class AppLayout extends Component {
+class AppLayout extends Component {
 
   state = {
     mql: mql,
@@ -28,6 +30,17 @@ export default class AppLayout extends Component {
   componentWillMount() {
     mql.addListener(this.mediaQueryChanged)
     this.setState({mql: mql, docked: mql.matches})
+  }
+
+  componentDidMount() {
+    this.listenRoutes()
+  }
+
+  listenRoutes = () => {
+    this.props.history.listen(() => {
+      //Close sidebar on route change
+      this.toggleOpen()
+    })
   }
 
   componentWillUnmount() {
@@ -54,8 +67,8 @@ export default class AppLayout extends Component {
 
     const contentHeader = (
       <span>
-        <a onClick={this.toggleOpen.bind(this)} href="#" style={styles.contentHeaderMenuLink}>=</a>
-        <span> India Trends </span>
+        <a onClick={this.toggleOpen.bind(this)} href="#" style={styles.contentHeaderMenuLink}><MenuIcon/></a>
+        <span> India Facts </span>
       </span>);
 
     const sidebarProps = {
@@ -67,7 +80,7 @@ export default class AppLayout extends Component {
 
     return (
       <Sidebar {...sidebarProps}>
-        {!this.state.docked && <TitleBar title={contentHeader}/>}
+        {!this.state.docked && <TitleBar title={contentHeader} image={false}/>}
         <RightContentDiv>
           {this.props.children}
         </RightContentDiv>
@@ -75,3 +88,5 @@ export default class AppLayout extends Component {
     );
   }
 }
+
+export default withRouter(AppLayout)

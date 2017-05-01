@@ -24,7 +24,7 @@ const TitleBar = (props) => {
     <div style={rootStyle}>
       <Link to='/'>
         <FlexContainer style={styles.header}>
-          <LogoImg src={TrendImg}/>
+          {props.image && <LogoImg src={TrendImg}/>}
           {props.title}
         </FlexContainer>
       </Link>
