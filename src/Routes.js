@@ -23,7 +23,6 @@ function logPageView() {
   }
 }
 
-
 import {
   BrowserRouter as Router,
   Route
