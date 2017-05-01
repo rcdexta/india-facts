@@ -1,0 +1,212 @@
+[
+  {
+    "State": "Kerala",
+    "LiteracyRate": 93.91,
+    "Male": 96.02,
+    "Female": 91.98
+  },
+  {
+    "State": "Lakshadweep",
+    "LiteracyRate": 92.28,
+    "Male": 96.11,
+    "Female": 88.25
+  },
+  {
+    "State": "Mizoram",
+    "LiteracyRate": 91.58,
+    "Male": 93.72,
+    "Female": 89.4
+  },
+  {
+    "State": "Tripura",
+    "LiteracyRate": 87.75,
+    "Male": 92.18,
+    "Female": 83.15
+  },
+  {
+    "State": "Goa",
+    "LiteracyRate": 87.4,
+    "Male": 92.81,
+    "Female": 81.84
+  },
+  {
+    "State": "Daman & Diu",
+    "LiteracyRate": 87.07,
+    "Male": 91.48,
+    "Female": 79.59
+  },
+  {
+    "State": "Puducherry",
+    "LiteracyRate": 86.55,
+    "Male": 92.12,
+    "Female": 81.22
+  },
+  {
+    "State": "Chandigarh",
+    "LiteracyRate": 86.43,
+    "Male": 90.54,
+    "Female": 81.38
+  },
+  {
+    "State": "Delhi",
+    "LiteracyRate": 86.34,
+    "Male": 91.03,
+    "Female": 80.93
+  },
+  {
+    "State": "Andaman & Nicobar",
+    "LiteracyRate": 86.27,
+    "Male": 90.11,
+    "Female": 81.84
+  },
+  {
+    "State": "Himachal Pradesh",
+    "LiteracyRate": 83.78,
+    "Male": 90.83,
+    "Female": 76.6
+  },
+  {
+    "State": "Maharashtra",
+    "LiteracyRate": 82.91,
+    "Male": 89.82,
+    "Female": 75.48
+  },
+  {
+    "State": "Sikkim",
+    "LiteracyRate": 82.2,
+    "Male": 87.29,
+    "Female": 76.43
+  },
+  {
+    "State": "Tamil Nadu",
+    "LiteracyRate": 80.33,
+    "Male": 86.81,
+    "Female": 73.86
+  },
+  {
+    "State": "Nagaland",
+    "LiteracyRate": 80.11,
+    "Male": 83.29,
+    "Female": 76.89
+  },
+  {
+    "State": "Manipur",
+    "LiteracyRate": 79.85,
+    "Male": 86.49,
+    "Female": 73.17
+  },
+  {
+    "State": "Uttarakhand",
+    "LiteracyRate": 79.63,
+    "Male": 88.33,
+    "Female": 70.7
+  },
+  {
+    "State": "Gujarat",
+    "LiteracyRate": 79.31,
+    "Male": 87.23,
+    "Female": 70.73
+  },
+  {
+    "State": "Dadra & Nagar Haveli",
+    "LiteracyRate": 77.65,
+    "Male": 86.46,
+    "Female": 65.93
+  },
+  {
+    "State": "West Bengal",
+    "LiteracyRate": 77.08,
+    "Male": 82.67,
+    "Female": 71.16
+  },
+  {
+    "State": "Punjab",
+    "LiteracyRate": 76.68,
+    "Male": 81.48,
+    "Female": 71.34
+  },
+  {
+    "State": "Haryana",
+    "LiteracyRate": 76.64,
+    "Male": 85.38,
+    "Female": 66.77
+  },
+  {
+    "State": "Karnataka",
+    "LiteracyRate": 75.6,
+    "Male": 82.85,
+    "Female": 68.13
+  },
+  {
+    "State": "Meghalaya",
+    "LiteracyRate": 75.48,
+    "Male": 77.17,
+    "Female": 73.78
+  },
+  {
+    "State": "Odisha",
+    "LiteracyRate": 73.45,
+    "Male": 82.4,
+    "Female": 64.36
+  },
+  {
+    "State": "Assam",
+    "LiteracyRate": 73.18,
+    "Male": 78.81,
+    "Female": 67.27
+  },
+  {
+    "State": "Chhattisgarh",
+    "LiteracyRate": 71.04,
+    "Male": 81.45,
+    "Female": 60.59
+  },
+  {
+    "State": "Madhya Pradesh",
+    "LiteracyRate": 70.63,
+    "Male": 80.53,
+    "Female": 60.02
+  },
+  {
+    "State": "Uttar Pradesh",
+    "LiteracyRate": 69.72,
+    "Male": 79.24,
+    "Female": 59.26
+  },
+  {
+    "State": "Jammu & Kashmir",
+    "LiteracyRate": 68.74,
+    "Male": 78.26,
+    "Female": 58.01
+  },
+  {
+    "State": "Jharkhand",
+    "LiteracyRate": 67.63,
+    "Male": 78.45,
+    "Female": 56.21
+  },
+  {
+    "State": "Andhra Pradesh",
+    "LiteracyRate": 67.4,
+    "Male": 75.56,
+    "Female": 59.74
+  },
+  {
+    "State": "Rajasthan",
+    "LiteracyRate": 67.06,
+    "Male": 80.51,
+    "Female": 52.66
+  },
+  {
+    "State": "Arunachal Pradesh",
+    "LiteracyRate": 66.95,
+    "Male": 73.69,
+    "Female": 59.57
+  },
+  {
+    "State": "Bihar",
+    "LiteracyRate": 63.82,
+    "Male": 73.39,
+    "Female": 53.33
+  }
+]
