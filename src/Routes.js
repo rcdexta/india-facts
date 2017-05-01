@@ -13,12 +13,14 @@ import Intro from './components/Intro'
 const ReactGA = require('react-ga');
 
 if (process.env.NODE_ENV === 'production') {
-  ReactGA.initialize('UA-98392318-1');
+  console.log('Initialising GA')
+  ReactGA.initialize('UA-98392318-1', {debug: true});
 }
 
 function logPageView() {
   if (process.env.NODE_ENV === 'production') {
-    ReactGA.set({ page: window.location.pathname });
+    console.log('Logging GA')
+    ReactGA.set({page: window.location.pathname});
     ReactGA.pageview(window.location.pathname);
   }
 }
