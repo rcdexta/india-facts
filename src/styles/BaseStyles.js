@@ -32,5 +32,9 @@ export const ChartToolTip = styled.div`
     color: white;
     padding: 5px;
   }
-  
+`
+
+export const ChartTitle = styled.h5`
+  color: #004D40;
+  font-size: 0.8em;
 `

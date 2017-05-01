@@ -5,7 +5,7 @@
     "Penetration": 0.5,
     "TotalPopulation": 1053481072,
     "Nonusers": 1047923617,
-    "YoY % of Users": 96.5,
+    "YoY % Growth of Users": 96.5,
     "YoyUsersChange": 2729647
   },
   {
@@ -14,7 +14,7 @@
     "Penetration": 0.7,
     "TotalPopulation": 1071888190,
     "Nonusers": 1064812159,
-    "YoY % of Users": 27.3,
+    "YoY % Growth of Users": 27.3,
     "YoyUsersChange": 1518576
   },
   {
@@ -23,7 +23,7 @@
     "Penetration": 1.5,
     "TotalPopulation": 1090189358,
     "Nonusers": 1073423602,
-    "YoY % of Users": 136.9,
+    "YoY % Growth of Users": 136.9,
     "YoyUsersChange": 9689725
   },
   {
@@ -32,7 +32,7 @@
     "Penetration": 1.7,
     "TotalPopulation": 1108369577,
     "Nonusers": 1089677035,
-    "YoY % of Users": 11.5,
+    "YoY % Growth of Users": 11.5,
     "YoyUsersChange": 1926786
   },
   {
@@ -41,7 +41,7 @@
     "Penetration": 2,
     "TotalPopulation": 1126419321,
     "Nonusers": 1104159738,
-    "YoY % of Users": 19.1,
+    "YoY % Growth of Users": 19.1,
     "YoyUsersChange": 3567041
   },
   {
@@ -50,7 +50,7 @@
     "Penetration": 2.4,
     "TotalPopulation": 1144326293,
     "Nonusers": 1116998923,
-    "YoY % of Users": 22.8,
+    "YoY % Growth of Users": 22.8,
     "YoyUsersChange": 5067787
   },
   {
@@ -59,7 +59,7 @@
     "Penetration": 2.8,
     "TotalPopulation": 1162088305,
     "Nonusers": 1129485919,
-    "YoY % of Users": 19.3,
+    "YoY % Growth of Users": 19.3,
     "YoyUsersChange": 5275016
   },
   {
@@ -68,7 +68,7 @@
     "Penetration": 4,
     "TotalPopulation": 1179685631,
     "Nonusers": 1133088049,
-    "YoY % of Users": 42.9,
+    "YoY % Growth of Users": 42.9,
     "YoyUsersChange": 13995197
   },
   {
@@ -77,7 +77,7 @@
     "Penetration": 4.4,
     "TotalPopulation": 1197070109,
     "Nonusers": 1144638438,
-    "YoY % of Users": 12.5,
+    "YoY % Growth of Users": 12.5,
     "YoyUsersChange": 5834088
   },
   {
@@ -86,7 +86,7 @@
     "Penetration": 5.1,
     "TotalPopulation": 1214182182,
     "Nonusers": 1152016054,
-    "YoY % of Users": 18.6,
+    "YoY % Growth of Users": 18.6,
     "YoyUsersChange": 9734457
   },
   {
@@ -95,7 +95,7 @@
     "Penetration": 7.5,
     "TotalPopulation": 1230984504,
     "Nonusers": 1138660666,
-    "YoY % of Users": 48.5,
+    "YoY % Growth of Users": 48.5,
     "YoyUsersChange": 30157710
   },
   {
@@ -104,7 +104,7 @@
     "Penetration": 10.1,
     "TotalPopulation": 1247446011,
     "Nonusers": 1121828198,
-    "YoY % of Users": 36.1,
+    "YoY % Growth of Users": 36.1,
     "YoyUsersChange": 33293976
   },
   {
@@ -113,7 +113,7 @@
     "Penetration": 12.6,
     "TotalPopulation": 1263589639,
     "Nonusers": 1104629293,
-    "YoY % of Users": 26.5,
+    "YoY % Growth of Users": 26.5,
     "YoyUsersChange": 33342533
   },
   {
@@ -122,7 +122,7 @@
     "Penetration": 15.1,
     "TotalPopulation": 1279498874,
     "Nonusers": 1086294544,
-    "YoY % of Users": 21.5,
+    "YoY % Growth of Users": 21.5,
     "YoyUsersChange": 34243984
   },
   {
@@ -131,7 +131,7 @@
     "Penetration": 18,
     "TotalPopulation": 1295291543,
     "Nonusers": 1062139065,
-    "YoY % of Users": 20.7,
+    "YoY % Growth of Users": 20.7,
     "YoyUsersChange": 39948148
   },
   {
@@ -140,7 +140,7 @@
     "Penetration": 27,
     "TotalPopulation": 1311050527,
     "Nonusers": 956935780,
-    "YoY % of Users": 51.9,
+    "YoY % Growth of Users": 51.9,
     "YoyUsersChange": 120962270
   },
   {
@@ -149,7 +149,7 @@
     "Penetration": 34.8,
     "TotalPopulation": 1326801576,
     "Nonusers": 864676587,
-    "YoY % of Users": 30.5,
+    "YoY % Growth of Users": 30.5,
     "YoyUsersChange": 108010242
   }
 ]

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Vodafone",
+    "value": 207250000
+  },
+  {
+    "name": "Idea Cellular",
+    "value": 193230000
+  },
+  {
+    "name": "Bharti Airtel",
+    "value": 270640000
+  },
+  {
+    "name": "Reliance Jio",
+    "value": 121000000
+  },
+  {
+    "name": "BSNL Mobile",
+    "value": 96900000
+  },
+  {
+    "name": "Aircel",
+    "value": 91300000
+  },
+  {
+    "name": "Reliance Communications",
+    "value": 86500000
+  },
+  {
+    "name": "Tata Docomo",
+    "value": 53000000
+  },
+  {
+    "name": "Telenor",
+    "value": 51600000
+  },
+  {
+    "name": "MTS India",
+    "value": 5900000
+  },
+  {
+    "name": "MTNL",
+    "value": 3600000
+  }
+]

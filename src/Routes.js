@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Population from './components/Population'
 import Forecasts from './components/Forecasts'
 import InternetPenetration from './components/InternetPenetration'
+import IspMarketShare from './components/IspMarketShare'
 
 
 import {
@@ -24,6 +25,7 @@ export default class Routes extends Component {
         <Route path="/population" component={Population}/>
         <Route path="/forecasts" component={Forecasts}/>
         <Route path="/internet_penetration" component={InternetPenetration}/>
+        <Route path="/share_of_isps" component={IspMarketShare}/>
       </AppLayout>
     </Router>
   }

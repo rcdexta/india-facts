@@ -27,7 +27,7 @@ const CustomToolTip = ({payload, label, color}) => {
 export default class InternetPenetration extends Component {
 
   formattedtabularData = () => {
-    return data.slice().reverse().map((el) => {
+    return data.map((el) => {
       return [el['Year'], Nh.humanize(el['Internet Users']), Nh.per(el['Penetration']), Nh.humanize(el['TotalPopulation']), Nh.humanize(el['Nonusers']),
         Nh.per(el['YoY % of Users']), Nh.humanize(el['YoyUsersChange'])]
     })
@@ -46,8 +46,8 @@ export default class InternetPenetration extends Component {
           <ResponsiveContainer width="100%" height="90%" aspect={2}>
             <AreaChart data={data}
                        margin={{top: 40, right: 40, bottom: 20, left: 20}}>
-              <XAxis dataKey="Year" tick={<CustomDateTick/>}/>
-              <YAxis tick={<CustomValueTick valueType={PlotValue.BIG_NUMBER}/>}/>
+              <XAxis padding={{right: 20}} dataKey="Year" tick={<CustomDateTick/>}/>
+              <YAxis padding={{top: 20}} tick={<CustomValueTick valueType={PlotValue.BIG_NUMBER}/>}/>
               <CartesianGrid strokeDasharray="3 3"/>
               <Tooltip content={<CustomToolTip/>}/>
               <Area type='monotone' dataKey='Internet Users' stackId="1" stroke='#8884d8' fill='#8884d8'/>
@@ -57,7 +57,7 @@ export default class InternetPenetration extends Component {
           </ResponsiveContainer>
         </Col>
         <Col xs={12} sm={6}>
-          <LineChart plotBy='Year' label='Penetration' color='green' data={data} valueType={PlotValue.PERCENTAGE}/>
+          <LineChart plotBy='Year' label='YoY % Growth of Users' color='green' data={data} valueType={PlotValue.PERCENTAGE}/>
         </Col>
       </Row>
     </Grid>
