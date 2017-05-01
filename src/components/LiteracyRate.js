@@ -66,7 +66,7 @@ export default class LiteracyRate extends Component {
       },
 
       subtitle: {
-        text: 'Census: 2011'
+        text: '(in percentage) Census: 2011'
       },
 
       mapNavigation: {

@@ -6,7 +6,7 @@ export const FlexContainer = styled.div`
 `
 
 export const LogoImg = styled.img`
-  width: 72px;
+  width: 60px;
   height: auto;
   margin-right: 10px
 `
@@ -45,9 +45,13 @@ export const ChartSmallTitle = styled.p`
 `
 
 export const IntroDiv = styled.div`
-  font-size: 0.9em;
+  font-size: 0.85em;
   
   li {
     line-height: 20px;
+  }
+  
+  a {
+    color: #5C6BC0;
   }
 `

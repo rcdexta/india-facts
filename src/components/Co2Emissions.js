@@ -38,7 +38,7 @@ export default class Co2Emissions extends Component {
     return <Grid fluid>
       <Row>
         <Col xs={12} sm={6}>
-          <ChartSmallTitle>CO2 emissions (metric tons per capita)</ChartSmallTitle>
+          <ChartSmallTitle><span>CO<sub>2</sub> Emissions</span> (metric tons per capita)</ChartSmallTitle>
           <LineChart plotBy='Year' data={data}
                      valueType={ChartValue.BIG_NUMBER} customToolTip={<CustomToolTip/>}>
             <Line dataKey="India" stroke="green" dot={false}/>
@@ -52,7 +52,7 @@ export default class Co2Emissions extends Component {
 
   render() {
     return <div>
-      <Breadcrumb  category='Environment'  label='CO2 Emissions'/>
+      <Breadcrumb  category='Environment'  label={<span>CO<sub>2</sub> Emissions</span>}/>
       <Tabs>
         <TabList>
           <Tab>Facts</Tab>
@@ -64,6 +64,7 @@ export default class Co2Emissions extends Component {
           <h2>{this.renderChart()}</h2>
         </TabPanel>
         <TabPanel>
+          <ChartSmallTitle><span>CO<sub>2</sub> Emissions</span> (metric tons per capita)</ChartSmallTitle>
           <ResponsiveTable data={this.formattedtabularData()} headers={headers}/>
         </TabPanel>
         <TabPanel>

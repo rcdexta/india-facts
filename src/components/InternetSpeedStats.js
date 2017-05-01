@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
 import ReactHighmaps from 'react-highcharts/ReactHighmaps'
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
-import Nh from '../helpers/NumberHelper'
 import Breadcrumb from '../ui/Breadcrumb'
-import ResponsiveTable from '../ui/ResponsiveTable'
 
-const data = require('../data/LiteracyRate.json');
+const literacyData = require('../data/LiteracyRate.json');
 const mapData = require('../data/MapData.json')
 
 export default class InternetSpeedStats extends Component {
@@ -14,7 +12,7 @@ export default class InternetSpeedStats extends Component {
 
     // Data is joined to map using value of 'hc-key' property by default.
 // See API docs for 'joinBy' for more info on linking data and map.
-    var data = [
+    const data = [
       ['in-py', 1.96],
       ['in-wb', 4.07],
       ['in-or', 5.72],
