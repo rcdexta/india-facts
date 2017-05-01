@@ -29,7 +29,7 @@ export const NestedMenuItem = styled(MenuItem)`
   
   svg {
     width: 15%;
-    vertical-align: top !important;
+    margin-top: 2px;
   }
 `
 

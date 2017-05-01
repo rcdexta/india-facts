@@ -43,3 +43,11 @@ export const ChartSmallTitle = styled.p`
     margin: 0px;
     font-size: 0.7em;
 `
+
+export const IntroDiv = styled.div`
+  font-size: 0.9em;
+  
+  li {
+    line-height: 20px;
+  }
+`

@@ -18,10 +18,6 @@ const globals = injectGlobal`
 
 export const RightContentDiv = styled.div`
 	padding: 20px;
-	
-	p {
-		font-family: Lato, serif;
-	}
 `
 
 export default globals;

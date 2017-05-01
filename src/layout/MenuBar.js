@@ -17,6 +17,8 @@ import Smoke from 'react-icons/lib/md/smoking-rooms'
 import Life from 'react-icons/lib/fa/heartbeat'
 import School from 'react-icons/lib/md/local-library'
 import Literacy from 'react-icons/lib/ti/mortar-board'
+import Home from 'react-icons/lib/fa/home'
+import Intro from 'react-icons/lib/md/view-headline'
 import {Route} from 'react-router-dom'
 
 const styles = {
@@ -38,15 +40,15 @@ const styles = {
   },
 };
 
-const SidebarMenuItem = ({path, label, icon}) => (
-  <Route path={path} children={({match}) => {
-    const styles = match ? {backgroundColor: 'rgba(255,255,0,0.1)', borderRight: '4px solid #7b875a'} : {}
-    return <Link to={path}>
-      <NestedMenuItem style={styles}>
-        {icon}<span className='label'>{label}</span>
-      </NestedMenuItem>
-    </Link>
-  }
+const SidebarMenuItem = ({path, label, icon, exact}) => (
+  <Route exact={exact !== null} path={path} children={({match}) => {
+      const styles = match ? {backgroundColor: 'rgba(255,255,0,0.1)', borderRight: '4px solid #7b875a'} : {}
+      return <Link to={path}>
+        <NestedMenuItem style={styles}>
+          {icon}<span className='label'>{label}</span>
+        </NestedMenuItem>
+      </Link>
+    }
   }/>
 )
 
@@ -57,8 +59,14 @@ export default class MenuBar extends Component {
 
   render() {
     return (
-      <TitleBar title="India Trends" style={styles.sidebar}>
+      <TitleBar title="India Facts" style={styles.sidebar}>
         <div style={styles.content}>
+
+          <MenuItem>
+            <Home/>
+            <span className='label'>Home</span>
+          </MenuItem>
+          <SidebarMenuItem path='/' exact label='Introduction' icon={<Intro/>}/>
 
           <MenuItem>
             <Globe/>
