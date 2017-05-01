@@ -41,7 +41,7 @@ class AppLayout extends Component {
 
   initGA = () => {
     if (process.env.NODE_ENV === 'production') {
-      ReactGA.initialize(process.env.GA_ID, {debug: true});
+      ReactGA.initialize('UA-98392318-1', {debug: true});
       this.recordViewInGA()
     }
   }
