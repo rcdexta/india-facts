@@ -4,7 +4,8 @@ import MenuBar from './MenuBar'
 import TitleBar from './TitleBar'
 import MenuIcon from 'react-icons/lib/md/menu'
 import {RightContentDiv} from '../styles/AppStyles.js'
-import { withRouter } from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
+const ReactGA = require('react-ga');
 
 const styles = {
   contentHeaderMenuLink: {
@@ -30,16 +31,33 @@ class AppLayout extends Component {
   componentWillMount() {
     mql.addListener(this.mediaQueryChanged)
     this.setState({mql: mql, docked: mql.matches})
+
   }
 
   componentDidMount() {
+    this.initGA()
     this.listenRoutes()
+  }
+
+  initGA = () => {
+    if (process.env.NODE_ENV === 'production') {
+      ReactGA.initialize(process.env.GA_ID, {debug: true});
+      this.recordViewInGA()
+    }
+  }
+
+  recordViewInGA = () => {
+    if (process.env.NODE_ENV === 'production') {
+      ReactGA.set({page: window.location.pathname});
+      ReactGA.pageview(window.location.pathname);
+    }
   }
 
   listenRoutes = () => {
     this.props.history.listen(() => {
       //Close sidebar on route change
       this.toggleOpen()
+      this.recordViewInGA()
     })
   }
 

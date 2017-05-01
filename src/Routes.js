@@ -10,20 +10,6 @@ import LifeExpectancy from './components/LifeExpectancy'
 import LiteracyRate from './components/LiteracyRate'
 import InternetSpeedStats from './components/InternetSpeedStats'
 import Intro from './components/Intro'
-const ReactGA = require('react-ga');
-
-if (process.env.NODE_ENV === 'production') {
-  console.log('Initialising GA')
-  ReactGA.initialize('UA-98392318-1', {debug: true});
-}
-
-function logPageView() {
-  if (process.env.NODE_ENV === 'production') {
-    console.log('Logging GA')
-    ReactGA.set({page: window.location.pathname});
-    ReactGA.pageview(window.location.pathname);
-  }
-}
 
 import {
   BrowserRouter as Router,
@@ -33,7 +19,7 @@ import {
 export default class Routes extends Component {
 
   render() {
-    return <Router onUpdate={logPageView}>
+    return <Router>
       <AppLayout>
         <Route path="/" exact component={Intro}/>
         <Route path="/petrol_price" component={PetrolTrend}/>
