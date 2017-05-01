@@ -17,7 +17,6 @@ import Smoke from 'react-icons/lib/md/smoking-rooms'
 import Life from 'react-icons/lib/fa/heartbeat'
 import School from 'react-icons/lib/md/local-library'
 import Literacy from 'react-icons/lib/ti/mortar-board'
-import Sad from 'react-icons/lib/go/flame'
 import {Route} from 'react-router-dom'
 
 const styles = {

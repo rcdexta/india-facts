@@ -16,7 +16,7 @@ const data = require('../data/ProjectedPopulation.json');
 const headers = ['Year','India', 'China', 'USA', 'World']
 
 const CustomToolTip = ({payload, label}) => {
-  if (payload.length == 0) return <span></span>
+  if (payload.length === 0) return <span></span>
   return <ChartToolTip>
     <div className='date' style={{backgroundColor: 'gray'}}>{label}</div>
     {payload.map((payload) => {

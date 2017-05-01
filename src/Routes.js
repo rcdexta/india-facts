@@ -9,6 +9,7 @@ import IspMarketShare from './components/IspMarketShare'
 import Co2Emissions from './components/Co2Emissions'
 import LifeExpectancy from './components/LifeExpectancy'
 import LiteracyRate from './components/LiteracyRate'
+import InternetSpeedStats from './components/InternetSpeedStats'
 
 
 import {
@@ -32,6 +33,7 @@ export default class Routes extends Component {
         <Route path="/co2_emissions" component={Co2Emissions}/>
         <Route path="/life_expectancy" component={LifeExpectancy}/>
         <Route path="/literacy_rate" component={LiteracyRate}/>
+        <Route path="/speed_stats" component={InternetSpeedStats}/>
       </AppLayout>
     </Router>
   }
