@@ -7,7 +7,10 @@ export default class Breadcrumb extends Component {
 
   render() {
     return <BreadcrumbContainer>
-      {this.props.category} <CaretRight style={{marginLeft: 3}} className='fa'/> {this.props.label}
+      {this.props.category}
+      { this.props.label &&
+        <span><CaretRight style={{marginLeft: 3}} className='fa'/> {this.props.label}</span>
+      }
     </BreadcrumbContainer>
   }
 }

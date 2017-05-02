@@ -18,7 +18,8 @@ import Life from 'react-icons/lib/fa/heartbeat'
 import School from 'react-icons/lib/md/local-library'
 import Literacy from 'react-icons/lib/ti/mortar-board'
 import Home from 'react-icons/lib/fa/home'
-import Intro from 'react-icons/lib/md/view-headline'
+import Intro from 'react-icons/lib/fa/info-circle'
+import Dashboard from 'react-icons/lib/fa/dashboard'
 import {Route} from 'react-router-dom'
 
 const styles = {
@@ -66,7 +67,8 @@ export default class MenuBar extends Component {
             <Home/>
             <span className='label'>Home</span>
           </MenuItem>
-          <SidebarMenuItem path='/' exact label='Introduction' icon={<Intro/>}/>
+          <SidebarMenuItem path='/' exact label='Dashboard' icon={<Dashboard/>}/>
+          <SidebarMenuItem path='/about' exact label='About' icon={<Intro/>}/>
 
           <MenuItem>
             <Globe/>

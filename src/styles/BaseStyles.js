@@ -5,8 +5,12 @@ export const FlexContainer = styled.div`
   align-items: center;
 `
 
+export const CenteredFlexContainer = styled(FlexContainer)`
+  justify-content: center;
+`
+
 export const LogoImg = styled.img`
-  width: 60px;
+  width: 48px;
   height: auto;
   margin-right: 10px
 `
@@ -54,4 +58,44 @@ export const IntroDiv = styled.div`
   a {
     color: #5C6BC0;
   }
+`
+
+export const Card = styled.div`
+  width: 100%;
+  width: 300px;
+  float: left;
+  margin: 25px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 0px rgba(109,109,109,0.3);
+  border: 1px solid #ddd;
+`
+
+export const CardTitle = styled.div`
+  background-color: #8C3638;
+  padding: 10px;
+  text-align: center;
+  color: white;
+`
+
+export const CardBody = styled.div`
+  padding: 10px;
+  font-size: 80%;
+`
+
+export const CardLink = styled.div`
+  text-align: center;
+  border-top: 1px solid #E0E0E0;
+  padding: 0 8px;
+`
+
+export const CardButton = styled.button`
+  outline: none;
+  position: relative;
+  display: inline-block;
+  line-height: 52px;
+  padding: 0 16px;
+  color: #FF1744;
+  border: none;
+  background: transparent;
+  cursor: pointer;
 `

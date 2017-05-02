@@ -9,7 +9,8 @@ import Co2Emissions from './components/Co2Emissions'
 import LifeExpectancy from './components/LifeExpectancy'
 import LiteracyRate from './components/LiteracyRate'
 import InternetSpeedStats from './components/InternetSpeedStats'
-import Intro from './components/Intro'
+import About from './components/About'
+import Dashboard from './components/Dashboard'
 
 import {
   BrowserRouter as Router,
@@ -21,7 +22,8 @@ export default class Routes extends Component {
   render() {
     return <Router>
       <AppLayout>
-        <Route path="/" exact component={Intro}/>
+        <Route path="/" exact component={Dashboard}/>
+        <Route path="/about" exact component={About}/>
         <Route path="/petrol_price" component={PetrolTrend}/>
         <Route path="/diesel_price" component={DieselTrend}/>
         <Route path="/population" component={Population}/>
