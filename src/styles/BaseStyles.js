@@ -10,8 +10,8 @@ export const CenteredFlexContainer = styled(FlexContainer)`
 `
 
 export const LogoImg = styled.img`
-  width: 48px;
   height: auto;
+  width: 100%;
   margin-right: 10px
 `
 
