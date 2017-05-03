@@ -1,4 +1,4 @@
-# india-trends
+# India Facts
 
 The code that powers http://india-facts.in
 
