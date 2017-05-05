@@ -35,7 +35,7 @@ const Intro = () => {
       <p>If you have any feedback or suggestions, please tweet/DM <a href='https://twitter.com/rcdexta'>@rcdexta</a></p>
 
       <BreadcrumbContainer>Soure code</BreadcrumbContainer>
-      <p>Fork this <a href='https://github.com/rcdexta/india-trends'>repository</a>. Contributions welcome!</p>
+      <p>Fork this <a href='https://github.com/rcdexta/india-facts'>repository</a>. Contributions welcome!</p>
 
     </IntroDiv>
   </div>
