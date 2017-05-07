@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
-import TitleBar from './TitleBar';
-import {Link} from 'react-router-dom'
-import {MenuItem, NestedMenuItem} from '../styles/MenuStyles'
+import React, { Component } from 'react'
+import TitleBar from './TitleBar'
+import { Link } from 'react-router-dom'
+import { MenuItem, NestedMenuItem } from '../styles/MenuStyles'
 import Energy from 'react-icons/lib/md/wb-sunny'
 import Globe from 'react-icons/lib/fa/globe'
 import Person from 'react-icons/lib/md/wc'
@@ -20,17 +20,17 @@ import Literacy from 'react-icons/lib/ti/mortar-board'
 import Home from 'react-icons/lib/fa/home'
 import Intro from 'react-icons/lib/fa/info-circle'
 import Dashboard from 'react-icons/lib/fa/dashboard'
-import {Route} from 'react-router-dom'
+import { Route } from 'react-router-dom'
 
 const styles = {
   sidebar: {
     width: 256,
-    height: '100%',
+    height: '100%'
   },
   sidebarLink: {
     display: 'block',
     color: '#757575',
-    textDecoration: 'none',
+    textDecoration: 'none'
   },
   content: {
     height: '100%',
@@ -38,76 +38,80 @@ const styles = {
     fontWeight: 700,
     color: '#b8b7ad',
     paddingTop: 10
-  },
-};
+  }
+}
 
-const SidebarMenuItem = ({path, label, icon, exact}) => (
-  <Route exact={exact !== null} path={path} children={({match}) => {
-      const styles = match ? {backgroundColor: 'rgba(255,255,0,0.1)', borderRight: '4px solid #7b875a'} : {}
-      return <Link to={path}>
-        <NestedMenuItem style={styles}>
-          {icon}<span className='label'>{label}</span>
-        </NestedMenuItem>
-      </Link>
-    }
-  }/>
+const SidebarMenuItem = ({ path, label, icon, exact }) => (
+  <Route
+    exact={exact !== null}
+    path={path}
+    children={({ match }) => {
+      const styles = match ? { backgroundColor: 'rgba(255,255,0,0.1)', borderRight: '4px solid #7b875a' } : {}
+      return (
+        <Link to={path}>
+          <NestedMenuItem style={styles}>
+            {icon}<span className="label">{label}</span>
+          </NestedMenuItem>
+        </Link>
+      )
+    }}
+  />
 )
 
 export default class MenuBar extends Component {
-
-  componentWillMount() {
-  }
+  componentWillMount() {}
 
   render() {
     return (
-      <TitleBar title="India Facts" style={styles.sidebar} image={true}>
-        <div style={styles.content}>
+      <nav>
+        <TitleBar title="India Facts" style={styles.sidebar} image={true}>
+          <div style={styles.content}>
 
-          <MenuItem>
-            <Home/>
-            <span className='label'>Home</span>
-          </MenuItem>
-          <SidebarMenuItem path='/' exact label='Dashboard' icon={<Dashboard/>}/>
-          <SidebarMenuItem path='/about' exact label='About' icon={<Intro/>}/>
+            <MenuItem>
+              <Home />
+              <span className="label">Home</span>
+            </MenuItem>
+            <SidebarMenuItem path="/" exact label="Dashboard" icon={<Dashboard />} />
+            <SidebarMenuItem path="/about" exact label="About" icon={<Intro />} />
 
-          <MenuItem>
-            <Globe/>
-            <span className='label'>Demographics</span>
-          </MenuItem>
-          <SidebarMenuItem path='/population' label='Population' icon={<Person/>}/>
-          <SidebarMenuItem path='/forecasts' label='Forecasts' icon={<Forecast/>}/>
-          <SidebarMenuItem path='/life_expectancy' label='Life Expectancy' icon={<Life/>}/>
+            <MenuItem>
+              <Globe />
+              <span className="label">Demographics</span>
+            </MenuItem>
+            <SidebarMenuItem path="/population" label="Population" icon={<Person />} />
+            <SidebarMenuItem path="/forecasts" label="Forecasts" icon={<Forecast />} />
+            <SidebarMenuItem path="/life_expectancy" label="Life Expectancy" icon={<Life />} />
 
-          <MenuItem>
-            <Energy/>
-            <span className='label'>Energy</span>
-          </MenuItem>
-          <SidebarMenuItem path='/petrol_price' label='Petrol Price' icon={<Petrol/>}/>
-          <SidebarMenuItem path='/diesel_price' label='Diesel Price' icon={<Diesel/>}/>
+            <MenuItem>
+              <Energy />
+              <span className="label">Energy</span>
+            </MenuItem>
+            <SidebarMenuItem path="/petrol_price" label="Petrol Price" icon={<Petrol />} />
+            <SidebarMenuItem path="/diesel_price" label="Diesel Price" icon={<Diesel />} />
 
-          <MenuItem>
-            <Telecom/>
-            <span className='label'>Telecom</span>
-          </MenuItem>
-          <SidebarMenuItem path='/internet_penetration' label='Internet Penetration' icon={<Internet/>}/>
-          <SidebarMenuItem path='/share_of_isps' label='ISP Market Share' icon={<MarketShare/>}/>
-          <SidebarMenuItem path='/speed_stats' label='Speed Stats' icon={<CloudInternet/>}/>
+            <MenuItem>
+              <Telecom />
+              <span className="label">Telecom</span>
+            </MenuItem>
+            <SidebarMenuItem path="/internet_penetration" label="Internet Penetration" icon={<Internet />} />
+            <SidebarMenuItem path="/share_of_isps" label="ISP Market Share" icon={<MarketShare />} />
+            <SidebarMenuItem path="/speed_stats" label="Speed Stats" icon={<CloudInternet />} />
 
+            <MenuItem>
+              <Environment />
+              <span className="label">Environment</span>
+            </MenuItem>
+            <SidebarMenuItem path="/co2_emissions" label="CO2 Emissions" icon={<Smoke />} />
 
-          <MenuItem>
-            <Environment/>
-            <span className='label'>Environment</span>
-          </MenuItem>
-          <SidebarMenuItem path='/co2_emissions' label='CO2 Emissions' icon={<Smoke/>}/>
+            <MenuItem>
+              <School />
+              <span className="label">Education</span>
+            </MenuItem>
+            <SidebarMenuItem path="/literacy_rate" label="Literacy Rate" icon={<Literacy />} />
 
-          <MenuItem>
-            <School/>
-            <span className='label'>Education</span>
-          </MenuItem>
-          <SidebarMenuItem path='/literacy_rate' label='Literacy Rate' icon={<Literacy/>}/>
-
-        </div>
-      </TitleBar>
-    );
+          </div>
+        </TitleBar>
+      </nav>
+    )
   }
 }

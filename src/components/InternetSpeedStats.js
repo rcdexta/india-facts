@@ -3,7 +3,6 @@ import ReactHighmaps from 'react-highcharts/ReactHighmaps'
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import Breadcrumb from '../ui/Breadcrumb'
 
-const literacyData = require('../data/LiteracyRate.json');
 const mapData = require('../data/MapData.json')
 
 export default class InternetSpeedStats extends Component {

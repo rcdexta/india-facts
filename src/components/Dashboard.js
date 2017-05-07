@@ -1,57 +1,43 @@
-import React from 'react';
-import TrendImg from '../images/trends-icon.png'
-import {CenteredFlexContainer, Card, CardTitle, CardBody, CardLink, CardButton} from '../styles/BaseStyles'
-import {Link} from 'react-router-dom'
+import React from 'react'
+import { CenteredFlexContainer, Card, CardTitle, CardBody, CardLink, CardButton } from '../styles/BaseStyles'
+import { Link } from 'react-router-dom'
 import Breadcrumb from '../ui/Breadcrumb'
 
 const Home = () => {
+  return (
+    <div>
 
-  return <div>
+      <Breadcrumb category="Welcome to India Facts" />
 
-    <Breadcrumb category='Welcome to India Facts' />
+      <div className="container">
+        <div className="row cols-sm-12">
 
-    <CenteredFlexContainer>
+          <div className="row" style={{ justifyContent: 'space-around' }}>
 
+            <div className="card">
+              <h3 className="section double-padded">Population</h3>
+              <img href="https://placehold.it/800x600" className="section media" />
+              <p className="section double-padded">India has about 125 million English speakers which is twice the entire population of the United Kingdom!</p>
+            </div>
 
-      <Card>
-        <CardTitle>Population</CardTitle>
-        <CardBody>India has about 125 million English speakers which is twice the entire population of the United Kingdom!</CardBody>
-        <CardLink>
-          <Link to='/population'><CardButton>LEARN MORE</CardButton></Link>
-        </CardLink>
-      </Card>
+            <div className="card">
+              <h3 className="section double-padded">Internet</h3>
+              <img href="https://placehold.it/800x600" className="section media" />
+              <p className="section double-padded">Even though only 16% of India’s population has access to the Internet, this is 10 times the total population of Australia.</p>
+            </div>
 
+            <div className="card">
+              <h3 className="section double-padded">Life Expectancy</h3>
+              <img href="https://placehold.it/800x600" className="section media" />
+              <p className="section double-padded">Life expectancy in India has increased by more than 10 years in the past two decades, while globally children born in 2015 were expected on an average to live till 71.4 years, a new UN report revealed</p>
+            </div>
 
-      <Card>
-        <CardTitle>Internet</CardTitle>
-        <CardBody>Even though only 16% of India’s population has access to the Internet, this is 10 times the total population of Australia.</CardBody>
-        <CardLink>
-          <Link to='/internet_penetration'><CardButton>LEARN MORE</CardButton></Link>
-        </CardLink>
-      </Card>
+          </div>
+        </div>
+      </div>
 
-      <Card>
-        <CardTitle>Life Expectancy</CardTitle>
-        <CardBody>Life expectancy in India has increased by more than 10 years in the past two decades, while globally children born in 2015 were expected on an average to live till 71.4 years, a new
-          UN report revealed</CardBody>
-        <CardLink>
-          <Link to='/life_expectancy'><CardButton>LEARN MORE</CardButton></Link>
-        </CardLink>
-      </Card>
-
-
-      <Card>
-        <CardTitle>Emissions</CardTitle>
-        <CardBody>In it's 2020 climate action plan, India commits to 35% cut in emission rate by 2030</CardBody>
-        <CardLink>
-          <Link to='/co2_emissions'><CardButton>LEARN MORE</CardButton></Link>
-        </CardLink>
-      </Card>
-
-    </CenteredFlexContainer>
-
-  </div>
-
+    </div>
+  )
 }
 
 export default Home
