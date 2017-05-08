@@ -1,35 +1,56 @@
 import React from 'react'
-import { CenteredFlexContainer, Card, CardTitle, CardBody, CardLink, CardButton } from '../styles/BaseStyles'
+import SkylineImg from '../images/skyline.png'
+import PlotValue from '../charts/PlotValue'
+import LineChart from '../charts/LineChart'
+import { Line } from 'recharts'
 import { Link } from 'react-router-dom'
-import Breadcrumb from '../ui/Breadcrumb'
+
+const populationData = require('../data/Population.json')
+const petrolPriceData = require('../data/PetrolPrice.json')
+const femaleLifeExpectancyData = require('../data/FemaleLifeExpectancy.json');
 
 const Home = () => {
   return (
     <div>
 
-      <Breadcrumb category="Welcome to India Facts" />
+      <div className="container" style={{ textAlign: 'center' }} alt="India Facts Banner">
 
-      <div className="container">
+        <img src={SkylineImg} style={{ marginBottom: 30 }} />
+
         <div className="row cols-sm-12">
 
           <div className="row" style={{ justifyContent: 'space-around' }}>
 
             <div className="card">
-              <h3 className="section double-padded">Population</h3>
-              <img href="https://placehold.it/800x600" className="section media" />
-              <p className="section double-padded">India has about 125 million English speakers which is twice the entire population of the United Kingdom!</p>
+              <h3 className="section title double-padded">Population</h3>
+              <div className="section media">
+                <LineChart plotBy="Year" label="YearlyGrowth" color="orange" data={populationData} valueType={PlotValue.PERCENTAGE} aspectRatio={1.5} />
+              </div>
+              <div className="action"><Link to="/population">LEARN MORE</Link></div>
             </div>
 
             <div className="card">
-              <h3 className="section double-padded">Internet</h3>
-              <img href="https://placehold.it/800x600" className="section media" />
-              <p className="section double-padded">Even though only 16% of India’s population has access to the Internet, this is 10 times the total population of Australia.</p>
+              <h3 className="section title double-padded">Petrol Price</h3>
+              <div className="section media">
+                <LineChart plotBy="date" label="Chennai" color="green" data={petrolPriceData} valueType={PlotValue.RUPEE} aspectRatio={1.5} />
+              </div>
+              <p className="section double-padded">
+                <div className="action"><Link to="/petrol_price">LEARN MORE</Link></div>
+              </p>
             </div>
 
             <div className="card">
-              <h3 className="section double-padded">Life Expectancy</h3>
-              <img href="https://placehold.it/800x600" className="section media" />
-              <p className="section double-padded">Life expectancy in India has increased by more than 10 years in the past two decades, while globally children born in 2015 were expected on an average to live till 71.4 years, a new UN report revealed</p>
+              <h3 className="section title double-padded">Female Life Expectancy</h3>
+              <div className="section media">
+                <LineChart plotBy="Year" data={femaleLifeExpectancyData} valueType={PlotValue.BIG_NUMBER} aspectRatio={1.5} >
+                  <Line dataKey="India" stroke="green" dot={false} />
+                  <Line dataKey="China" stroke="orange" dot={false} />
+                  <Line dataKey="Usa" stroke="blue" dot={false} />
+                </LineChart>
+              </div>
+              <p className="section double-padded">
+                <div className="action"><Link to="/life_expectancy">LEARN MORE</Link></div>
+              </p>
             </div>
 
           </div>

@@ -18,7 +18,7 @@ export const LogoImg = styled.img`
 export const BreadcrumbContainer = styled.div`
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #6c79c3;
+  background-color: #009FBE;
   color: #fff;
 `
 

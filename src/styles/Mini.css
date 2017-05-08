@@ -1401,7 +1401,6 @@ table.striped tr:nth-of-type(2n) > td {
     border: 0;
     border-radius: 0;
     border-bottom: 1px solid #c9c9c9;
-    padding: 0.5rem;
     width: 100%;
 }
 
@@ -1466,6 +1465,21 @@ table.striped tr:nth-of-type(2n) > td {
 
 .card > .section.double-padded {
     padding: 0.75rem;
+}
+
+.card > .title {
+    background-color: #373A47;
+    color: #fff;
+}
+
+.card > .action {
+    outline: none;
+    position: relative;
+    display: inline-block;
+    line-height: 52px;
+    padding: 0 16px;
+    color: #FF1744;
+    cursor: pointer;
 }
 
 /*

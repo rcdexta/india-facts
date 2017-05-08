@@ -59,7 +59,6 @@ const SidebarMenuItem = ({ path, label, icon, exact }) => (
 )
 
 export default class MenuBar extends Component {
-  componentWillMount() {}
 
   render() {
     return (

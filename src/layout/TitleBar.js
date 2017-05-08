@@ -18,12 +18,14 @@ const styles = {
 
 const TitleBar = props => {
   const rootStyle = props.style ? { ...styles.root, ...props.style } : styles.root
+  const headerStyle = props.image ? styles.header : { ...styles.header, padding: 8 }
 
   return (
     <div style={rootStyle}>
       <Link to="/">
-        <FlexContainer style={styles.header}>
-          <LogoImg src={Logo} />
+        <FlexContainer style={headerStyle}>
+          {props.image && <LogoImg src={Logo} />}
+          {props.title}
         </FlexContainer>
       </Link>
       {props.children}

@@ -10,8 +10,7 @@ const ReactGA = require('react-ga');
 const styles = {
   contentHeaderMenuLink: {
     textDecoration: 'none',
-    color: 'white',
-    padding: 8,
+    color: 'white'
   },
   content: {
     padding: '16px',
