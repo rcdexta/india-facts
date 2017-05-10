@@ -1393,6 +1393,7 @@ table.striped tr:nth-of-type(2n) > td {
     border: 1px solid #acacac;
     margin: 0.5rem;
     overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,.15);
 }
 
 .card > .section {

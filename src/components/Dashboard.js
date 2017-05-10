@@ -15,7 +15,7 @@ const Home = () => {
 
       <div className="container" style={{ textAlign: 'center' }} alt="India Facts Banner">
 
-        <img src={SkylineImg} style={{ marginBottom: 30 }} />
+        <img src={SkylineImg} style={{ marginBottom: 30 }} alt="India Facts Banner"/>
 
         <div className="row cols-sm-12">
 

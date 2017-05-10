@@ -16,7 +16,7 @@ export default class ResponsiveTable extends Component {
         {
           data.map((row, idx) => {
             return <tr key={idx}>
-                {row.map((el, rowIdx) => <td key={rowIdx} data-th={headers[rowIdx]}>{el}</td>)}
+                {row.map((el, rowIdx) => <td key={rowIdx} data-label={headers[rowIdx]}>{el}</td>)}
             </tr>
           })
         }
